@@ -8,10 +8,15 @@ let package = Package(
     products: [
         .library(
             name: "Diffusion",
-            targets: ["Diffusion"]),
+            targets: [ "Diffusion" ]
+        ),
     ],
     dependencies: [],
     targets: [
-        .binaryTarget(name: "Diffusion", path: "./Sources/Diffusion.xcframework")
+        .binaryTarget(
+            name: "Diffusion",
+            url: "https://github.com/ploureiro-push/diffusion-sdk-apple/raw/6.8.0/Diffusion.xcframework.zip",
+            checksum: "681165a77944beeb408fffa6eea097f9a8165ae0a84d79de280fd29783165166"
+        )
     ]
 )
