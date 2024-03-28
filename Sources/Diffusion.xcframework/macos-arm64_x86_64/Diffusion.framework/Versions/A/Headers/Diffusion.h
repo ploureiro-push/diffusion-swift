@@ -16,7 +16,7 @@
  Framework umbrella header file.
  */
 
-@import Foundation;
+#import <Foundation/Foundation.h>
 
 #import <Diffusion/PTDiffusion.h>
 #import <Diffusion/PTDiffusionAddTopicResult.h>
@@ -68,6 +68,8 @@
 #import <Diffusion/PTDiffusionHTTPProxyConfiguration.h>
 #import <Diffusion/PTDiffusionHTTPResponse.h>
 #import <Diffusion/PTDiffusionJSON.h>
+#import <Diffusion/PTDiffusionJSONDelta.h>
+#import <Diffusion/PTDiffusionJSONDeltaChangeMap.h>
 #import <Diffusion/PTDiffusionJSONFetchResult.h>
 #import <Diffusion/PTDiffusionJSONFetchTopicResult.h>
 #import <Diffusion/PTDiffusionJSONRequestDelegate.h>

@@ -10,7 +10,7 @@
 //  may be covered by U.S. and Foreign Patents, patents in process, and
 //  are protected by trade secret or copyright law.
 
-@import Foundation;
+#import <Foundation/Foundation.h>
 #import <Diffusion/PTDiffusionTopicTreeRegistrationDelegate.h>
 
 @class PTDiffusionJSON;
