@@ -128,8 +128,8 @@ relocations:
   - { offsetInCU: 0x111, offset: 0x33A7B, size: 0x8, addend: 0x0, symName: '-[PTWeakStreamDelegate .cxx_destruct]', symObjAddr: 0x1A0, symBinAddr: 0x8B44, symSize: 0x2C }
   - { offsetInCU: 0x27, offset: 0x33B02, size: 0x8, addend: 0x0, symName: '+[PTDiffusionJSONDataType jsonDataType]', symObjAddr: 0x0, symBinAddr: 0x8B70, symSize: 0x80 }
   - { offsetInCU: 0x35, offset: 0x33B10, size: 0x8, addend: 0x0, symName: '+[PTDiffusionJSONDataType jsonDataType]', symObjAddr: 0x0, symBinAddr: 0x8B70, symSize: 0x80 }
-  - { offsetInCU: 0x5F, offset: 0x33B3A, size: 0x8, addend: 0x0, symName: _jsonDataType.onceToken, symObjAddr: 0x37F0, symBinAddr: 0x1B9E60, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0x33B50, size: 0x8, addend: 0x0, symName: _jsonDataType.singleton, symObjAddr: 0x37F8, symBinAddr: 0x1B9E68, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x33B3A, size: 0x8, addend: 0x0, symName: _jsonDataType.onceToken, symObjAddr: 0x37F8, symBinAddr: 0x1B9E60, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x33B50, size: 0x8, addend: 0x0, symName: _jsonDataType.singleton, symObjAddr: 0x3800, symBinAddr: 0x1B9E68, symSize: 0x0 }
   - { offsetInCU: 0x21F, offset: 0x33CFA, size: 0x8, addend: 0x0, symName: '___39+[PTDiffusionJSONDataType jsonDataType]_block_invoke', symObjAddr: 0x80, symBinAddr: 0x8BF0, symSize: 0x4C }
   - { offsetInCU: 0x249, offset: 0x33D24, size: 0x8, addend: 0x0, symName: '-[PTDiffusionJSONDataType initAsSingleton]', symObjAddr: 0xCC, symBinAddr: 0x8C3C, symSize: 0x8C }
   - { offsetInCU: 0x282, offset: 0x33D5D, size: 0x8, addend: 0x0, symName: '-[PTDiffusionJSONDataType typeName]', symObjAddr: 0x158, symBinAddr: 0x8CC8, symSize: 0x1C }
@@ -156,8 +156,8 @@ relocations:
   - { offsetInCU: 0x2E7, offset: 0x346A6, size: 0x8, addend: 0x0, symName: '-[PTDiffusionGetTopicViewResult .cxx_destruct]', symObjAddr: 0x528, symBinAddr: 0x9C0C, symSize: 0x30 }
   - { offsetInCU: 0x27, offset: 0x347C1, size: 0x8, addend: 0x0, symName: '+[PTDiffusionInt64DataType int64DataType]', symObjAddr: 0x0, symBinAddr: 0x9C3C, symSize: 0x80 }
   - { offsetInCU: 0x35, offset: 0x347CF, size: 0x8, addend: 0x0, symName: '+[PTDiffusionInt64DataType int64DataType]', symObjAddr: 0x0, symBinAddr: 0x9C3C, symSize: 0x80 }
-  - { offsetInCU: 0x5F, offset: 0x347F9, size: 0x8, addend: 0x0, symName: _int64DataType.onceToken, symObjAddr: 0x60A8, symBinAddr: 0x1B9E70, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0x3480F, size: 0x8, addend: 0x0, symName: _int64DataType.singleton, symObjAddr: 0x60B0, symBinAddr: 0x1B9E78, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x347F9, size: 0x8, addend: 0x0, symName: _int64DataType.onceToken, symObjAddr: 0x60B0, symBinAddr: 0x1B9E70, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x3480F, size: 0x8, addend: 0x0, symName: _int64DataType.singleton, symObjAddr: 0x60B8, symBinAddr: 0x1B9E78, symSize: 0x0 }
   - { offsetInCU: 0x23F, offset: 0x349D9, size: 0x8, addend: 0x0, symName: '___41+[PTDiffusionInt64DataType int64DataType]_block_invoke', symObjAddr: 0x80, symBinAddr: 0x9CBC, symSize: 0x4C }
   - { offsetInCU: 0x269, offset: 0x34A03, size: 0x8, addend: 0x0, symName: '-[PTDiffusionInt64DataType initAsSingleton]', symObjAddr: 0xCC, symBinAddr: 0x9D08, symSize: 0x8C }
   - { offsetInCU: 0x2A2, offset: 0x34A3C, size: 0x8, addend: 0x0, symName: '-[PTDiffusionInt64DataType typeName]', symObjAddr: 0x158, symBinAddr: 0x9D94, symSize: 0x1C }
@@ -359,8 +359,8 @@ relocations:
   - { offsetInCU: 0x422, offset: 0x39ECD, size: 0x8, addend: 0x0, symName: '-[PTDiffusionCreateUpdateStreamResponse .cxx_destruct]', symObjAddr: 0x988, symBinAddr: 0x13A44, symSize: 0x30 }
   - { offsetInCU: 0x27, offset: 0x39FD3, size: 0x8, addend: 0x0, symName: '+[PTDiffusionDataTypes dataTypes]', symObjAddr: 0x0, symBinAddr: 0x13A74, symSize: 0xB4 }
   - { offsetInCU: 0x35, offset: 0x39FE1, size: 0x8, addend: 0x0, symName: '+[PTDiffusionDataTypes dataTypes]', symObjAddr: 0x0, symBinAddr: 0x13A74, symSize: 0xB4 }
-  - { offsetInCU: 0x5F, offset: 0x3A00B, size: 0x8, addend: 0x0, symName: _dataTypes.onceToken, symObjAddr: 0x36D8, symBinAddr: 0x1B9E80, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0x3A021, size: 0x8, addend: 0x0, symName: _dataTypes.dataTypes, symObjAddr: 0x36E0, symBinAddr: 0x1B9E88, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x3A00B, size: 0x8, addend: 0x0, symName: _dataTypes.onceToken, symObjAddr: 0x36E0, symBinAddr: 0x1B9E80, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x3A021, size: 0x8, addend: 0x0, symName: _dataTypes.dataTypes, symObjAddr: 0x36E8, symBinAddr: 0x1B9E88, symSize: 0x0 }
   - { offsetInCU: 0x163, offset: 0x3A10F, size: 0x8, addend: 0x0, symName: '___33+[PTDiffusionDataTypes dataTypes]_block_invoke', symObjAddr: 0xB4, symBinAddr: 0x13B28, symSize: 0x198 }
   - { offsetInCU: 0x1A4, offset: 0x3A150, size: 0x8, addend: 0x0, symName: '+[PTDiffusionDataTypes dataTypeWithTypeName:]', symObjAddr: 0x24C, symBinAddr: 0x13CC0, symSize: 0x2D4 }
   - { offsetInCU: 0x206, offset: 0x3A1B2, size: 0x8, addend: 0x0, symName: '+[PTDiffusionDataTypes internalBinary]', symObjAddr: 0x520, symBinAddr: 0x13F94, symSize: 0x30 }
@@ -434,8 +434,8 @@ relocations:
   - { offsetInCU: 0x436, offset: 0x3BECE, size: 0x8, addend: 0x0, symName: '-[PTDiffusionCredentials(PTDescribable) describableProperties]', symObjAddr: 0x9C4, symBinAddr: 0x169B0, symSize: 0xD0 }
   - { offsetInCU: 0x27, offset: 0x3BFF5, size: 0x8, addend: 0x0, symName: '-[PTDiffusionPathPattern initWithPattern:]', symObjAddr: 0x0, symBinAddr: 0x16A80, symSize: 0x338 }
   - { offsetInCU: 0xC8, offset: 0x3C096, size: 0x8, addend: 0x0, symName: __InvalidStartCharacters, symObjAddr: 0x338, symBinAddr: 0x16DB8, symSize: 0x78 }
-  - { offsetInCU: 0xEE, offset: 0x3C0BC, size: 0x8, addend: 0x0, symName: __InvalidStartCharacters.characterSet, symObjAddr: 0x4290, symBinAddr: 0x1B9E90, symSize: 0x0 }
-  - { offsetInCU: 0x104, offset: 0x3C0D2, size: 0x8, addend: 0x0, symName: __InvalidStartCharacters.onceToken, symObjAddr: 0x4298, symBinAddr: 0x1B9E98, symSize: 0x0 }
+  - { offsetInCU: 0xEE, offset: 0x3C0BC, size: 0x8, addend: 0x0, symName: __InvalidStartCharacters.characterSet, symObjAddr: 0x4298, symBinAddr: 0x1B9E90, symSize: 0x0 }
+  - { offsetInCU: 0x104, offset: 0x3C0D2, size: 0x8, addend: 0x0, symName: __InvalidStartCharacters.onceToken, symObjAddr: 0x42A0, symBinAddr: 0x1B9E98, symSize: 0x0 }
   - { offsetInCU: 0x17A, offset: 0x3C148, size: 0x8, addend: 0x0, symName: '-[PTDiffusionPathPattern initWithPattern:]', symObjAddr: 0x0, symBinAddr: 0x16A80, symSize: 0x338 }
   - { offsetInCU: 0x241, offset: 0x3C20F, size: 0x8, addend: 0x0, symName: '-[PTDiffusionPathPattern matchesString:]', symObjAddr: 0x3B0, symBinAddr: 0x16E30, symSize: 0xD4 }
   - { offsetInCU: 0x2BA, offset: 0x3C288, size: 0x8, addend: 0x0, symName: __NormalRegexParser_block_invoke, symObjAddr: 0x484, symBinAddr: 0x16F04, symSize: 0x80 }
@@ -450,12 +450,12 @@ relocations:
   - { offsetInCU: 0x27, offset: 0x3C856, size: 0x8, addend: 0x0, symName: '-[PTDiffusionMessage initWithType:topicPath:topicId:headers:data:]', symObjAddr: 0x0, symBinAddr: 0x17950, symSize: 0x244 }
   - { offsetInCU: 0x35, offset: 0x3C864, size: 0x8, addend: 0x0, symName: '-[PTDiffusionMessage initWithDataInputStream:error:]', symObjAddr: 0x4FC, symBinAddr: 0x17E4C, symSize: 0x628 }
   - { offsetInCU: 0x18E, offset: 0x3C9BD, size: 0x8, addend: 0x0, symName: __fieldDelimiterData, symObjAddr: 0x1194, symBinAddr: 0x18AE4, symSize: 0x78 }
-  - { offsetInCU: 0x1B4, offset: 0x3C9E3, size: 0x8, addend: 0x0, symName: __fieldDelimiterData.onceToken, symObjAddr: 0xAA98, symBinAddr: 0x1B9EA0, symSize: 0x0 }
-  - { offsetInCU: 0x1CA, offset: 0x3C9F9, size: 0x8, addend: 0x0, symName: __fieldDelimiterData.data, symObjAddr: 0xAAA0, symBinAddr: 0x1B9EA8, symSize: 0x0 }
+  - { offsetInCU: 0x1B4, offset: 0x3C9E3, size: 0x8, addend: 0x0, symName: __fieldDelimiterData.onceToken, symObjAddr: 0xAAA0, symBinAddr: 0x1B9EA0, symSize: 0x0 }
+  - { offsetInCU: 0x1CA, offset: 0x3C9F9, size: 0x8, addend: 0x0, symName: __fieldDelimiterData.data, symObjAddr: 0xAAA8, symBinAddr: 0x1B9EA8, symSize: 0x0 }
   - { offsetInCU: 0x215, offset: 0x3CA44, size: 0x8, addend: 0x0, symName: _PTDiffusionFieldDelimiter, symObjAddr: 0x3C28, symBinAddr: 0x145D20, symSize: 0x0 }
   - { offsetInCU: 0x21F, offset: 0x3CA4E, size: 0x8, addend: 0x0, symName: __fieldDelimiterString, symObjAddr: 0x1578, symBinAddr: 0x18EC8, symSize: 0x78 }
-  - { offsetInCU: 0x245, offset: 0x3CA74, size: 0x8, addend: 0x0, symName: __fieldDelimiterString.onceToken, symObjAddr: 0xAAA8, symBinAddr: 0x1B9EB0, symSize: 0x0 }
-  - { offsetInCU: 0x25B, offset: 0x3CA8A, size: 0x8, addend: 0x0, symName: __fieldDelimiterString.string, symObjAddr: 0xAAB0, symBinAddr: 0x1B9EB8, symSize: 0x0 }
+  - { offsetInCU: 0x245, offset: 0x3CA74, size: 0x8, addend: 0x0, symName: __fieldDelimiterString.onceToken, symObjAddr: 0xAAB0, symBinAddr: 0x1B9EB0, symSize: 0x0 }
+  - { offsetInCU: 0x25B, offset: 0x3CA8A, size: 0x8, addend: 0x0, symName: __fieldDelimiterString.string, symObjAddr: 0xAAB8, symBinAddr: 0x1B9EB8, symSize: 0x0 }
   - { offsetInCU: 0x3CD, offset: 0x3CBFC, size: 0x8, addend: 0x0, symName: '-[PTDiffusionMessage initWithType:topicPath:topicId:headers:data:]', symObjAddr: 0x0, symBinAddr: 0x17950, symSize: 0x244 }
   - { offsetInCU: 0x451, offset: 0x3CC80, size: 0x8, addend: 0x0, symName: '+[PTDiffusionMessage closeMessage]', symObjAddr: 0x244, symBinAddr: 0x17B94, symSize: 0x94 }
   - { offsetInCU: 0x48A, offset: 0x3CCB9, size: 0x8, addend: 0x0, symName: '-[PTDiffusionMessage initWithServiceType:commandData:]', symObjAddr: 0x2D8, symBinAddr: 0x17C28, symSize: 0xD8 }
@@ -530,11 +530,11 @@ relocations:
   - { offsetInCU: 0xC3, offset: 0x3F07C, size: 0x8, addend: 0x0, symName: '+[PTDiffusionTopicCreationResult exists]', symObjAddr: 0x180, symBinAddr: 0x1F23C, symSize: 0x30 }
   - { offsetInCU: 0x27, offset: 0x3F134, size: 0x8, addend: 0x0, symName: '-[PTDiffusionSessionId isEqualToSessionId:]', symObjAddr: 0x0, symBinAddr: 0x1F26C, symSize: 0xDC }
   - { offsetInCU: 0x35, offset: 0x3F142, size: 0x8, addend: 0x0, symName: __HexCharacterSet, symObjAddr: 0x1044, symBinAddr: 0x202B0, symSize: 0x78 }
-  - { offsetInCU: 0x5B, offset: 0x3F168, size: 0x8, addend: 0x0, symName: __HexCharacterSet.onceToken, symObjAddr: 0x7750, symBinAddr: 0x1B9EC0, symSize: 0x0 }
-  - { offsetInCU: 0x71, offset: 0x3F17E, size: 0x8, addend: 0x0, symName: __HexCharacterSet.set, symObjAddr: 0x7758, symBinAddr: 0x1B9EC8, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0x3F168, size: 0x8, addend: 0x0, symName: __HexCharacterSet.onceToken, symObjAddr: 0x7758, symBinAddr: 0x1B9EC0, symSize: 0x0 }
+  - { offsetInCU: 0x71, offset: 0x3F17E, size: 0x8, addend: 0x0, symName: __HexCharacterSet.set, symObjAddr: 0x7760, symBinAddr: 0x1B9EC8, symSize: 0x0 }
   - { offsetInCU: 0xB0, offset: 0x3F1BD, size: 0x8, addend: 0x0, symName: __EmptyComponents, symObjAddr: 0x10BC, symBinAddr: 0x20328, symSize: 0x78 }
-  - { offsetInCU: 0xD6, offset: 0x3F1E3, size: 0x8, addend: 0x0, symName: __EmptyComponents.onceToken, symObjAddr: 0x7760, symBinAddr: 0x1B9ED0, symSize: 0x0 }
-  - { offsetInCU: 0xEC, offset: 0x3F1F9, size: 0x8, addend: 0x0, symName: __EmptyComponents.array, symObjAddr: 0x7768, symBinAddr: 0x1B9ED8, symSize: 0x0 }
+  - { offsetInCU: 0xD6, offset: 0x3F1E3, size: 0x8, addend: 0x0, symName: __EmptyComponents.onceToken, symObjAddr: 0x7768, symBinAddr: 0x1B9ED0, symSize: 0x0 }
+  - { offsetInCU: 0xEC, offset: 0x3F1F9, size: 0x8, addend: 0x0, symName: __EmptyComponents.array, symObjAddr: 0x7770, symBinAddr: 0x1B9ED8, symSize: 0x0 }
   - { offsetInCU: 0x189, offset: 0x3F296, size: 0x8, addend: 0x0, symName: '-[PTDiffusionSessionId isEqualToSessionId:]', symObjAddr: 0x0, symBinAddr: 0x1F26C, symSize: 0xDC }
   - { offsetInCU: 0x1D1, offset: 0x3F2DE, size: 0x8, addend: 0x0, symName: '-[PTDiffusionSessionId initWithServer:value:]', symObjAddr: 0xDC, symBinAddr: 0x1F348, symSize: 0xD0 }
   - { offsetInCU: 0x228, offset: 0x3F335, size: 0x8, addend: 0x0, symName: '-[PTDiffusionSessionId isEqual:]', symObjAddr: 0x1AC, symBinAddr: 0x1F418, symSize: 0xE0 }
@@ -612,8 +612,8 @@ relocations:
   - { offsetInCU: 0x3B1, offset: 0x4226B, size: 0x8, addend: 0x0, symName: '-[PTDiffusionSessionMetricCollectorBuilder .cxx_destruct]', symObjAddr: 0x86C, symBinAddr: 0x238D8, symSize: 0x38 }
   - { offsetInCU: 0x27, offset: 0x423A7, size: 0x8, addend: 0x0, symName: '+[PTDiffusionTimeSeriesRange defaultRange]', symObjAddr: 0x0, symBinAddr: 0x23910, symSize: 0xB4 }
   - { offsetInCU: 0x35, offset: 0x423B5, size: 0x8, addend: 0x0, symName: '+[PTDiffusionTimeSeriesRange defaultRange]', symObjAddr: 0x0, symBinAddr: 0x23910, symSize: 0xB4 }
-  - { offsetInCU: 0x5F, offset: 0x423DF, size: 0x8, addend: 0x0, symName: _defaultRange.onceToken, symObjAddr: 0x5938, symBinAddr: 0x1B9EE0, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0x423F5, size: 0x8, addend: 0x0, symName: _defaultRange.range, symObjAddr: 0x5940, symBinAddr: 0x1B9EE8, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x423DF, size: 0x8, addend: 0x0, symName: _defaultRange.onceToken, symObjAddr: 0x5940, symBinAddr: 0x1B9EE0, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x423F5, size: 0x8, addend: 0x0, symName: _defaultRange.range, symObjAddr: 0x5948, symBinAddr: 0x1B9EE8, symSize: 0x0 }
   - { offsetInCU: 0x1A2, offset: 0x42522, size: 0x8, addend: 0x0, symName: '___42+[PTDiffusionTimeSeriesRange defaultRange]_block_invoke', symObjAddr: 0xB4, symBinAddr: 0x239C4, symSize: 0xAC }
   - { offsetInCU: 0x1E2, offset: 0x42562, size: 0x8, addend: 0x0, symName: '-[PTDiffusionTimeSeriesRange initWithAnchor:end:]', symObjAddr: 0x160, symBinAddr: 0x23A70, symSize: 0x270 }
   - { offsetInCU: 0x239, offset: 0x425B9, size: 0x8, addend: 0x0, symName: '-[PTDiffusionTimeSeriesRange rangeFromSequence:]', symObjAddr: 0x3D0, symBinAddr: 0x23CE0, symSize: 0x80 }
@@ -709,8 +709,8 @@ relocations:
   - { offsetInCU: 0x118, offset: 0x45FFA, size: 0x8, addend: 0x0, symName: '-[PTDiffusionDefaultTopicNotificationListener diffusionStream:didReceiveDescendantNotificationWithType:topicPath:]', symObjAddr: 0x150, symBinAddr: 0x2A07C, symSize: 0x128 }
   - { offsetInCU: 0x27, offset: 0x460DA, size: 0x8, addend: 0x0, symName: '-[PTSystemProperties initWithUserDefaults:]', symObjAddr: 0x0, symBinAddr: 0x2A1A4, symSize: 0x12C }
   - { offsetInCU: 0x35, offset: 0x460E8, size: 0x8, addend: 0x0, symName: '+[PTSystemProperties sharedInstance]', symObjAddr: 0x12C, symBinAddr: 0x2A2D0, symSize: 0x80 }
-  - { offsetInCU: 0x5F, offset: 0x46112, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x2D00, symBinAddr: 0x1B9EF0, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0x46128, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x2D08, symBinAddr: 0x1B9EF8, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x46112, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x2D08, symBinAddr: 0x1B9EF0, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x46128, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x2D10, symBinAddr: 0x1B9EF8, symSize: 0x0 }
   - { offsetInCU: 0x11D, offset: 0x461D0, size: 0x8, addend: 0x0, symName: '-[PTSystemProperties initWithUserDefaults:]', symObjAddr: 0x0, symBinAddr: 0x2A1A4, symSize: 0x12C }
   - { offsetInCU: 0x1A0, offset: 0x46253, size: 0x8, addend: 0x0, symName: '___36+[PTSystemProperties sharedInstance]_block_invoke', symObjAddr: 0x1AC, symBinAddr: 0x2A350, symSize: 0x7C }
   - { offsetInCU: 0x1E8, offset: 0x4629B, size: 0x8, addend: 0x0, symName: '-[PTSystemProperties getString:forKey:]', symObjAddr: 0x228, symBinAddr: 0x2A3CC, symSize: 0x294 }
@@ -768,8 +768,8 @@ relocations:
   - { offsetInCU: 0x467, offset: 0x477E2, size: 0x8, addend: 0x0, symName: __EncodeBitmap, symObjAddr: 0xB8C, symBinAddr: 0x2DC70, symSize: 0x2A8 }
   - { offsetInCU: 0x27, offset: 0x47902, size: 0x8, addend: 0x0, symName: '-[PTJSONToken initWithToken:]', symObjAddr: 0x0, symBinAddr: 0x2DF18, symSize: 0xC0 }
   - { offsetInCU: 0x35, offset: 0x47910, size: 0x8, addend: 0x0, symName: __Instance, symObjAddr: 0xE8, symBinAddr: 0x2E000, symSize: 0xCC }
-  - { offsetInCU: 0x5B, offset: 0x47936, size: 0x8, addend: 0x0, symName: __Instance.onceToken, symObjAddr: 0x3F60, symBinAddr: 0x1B9F00, symSize: 0x0 }
-  - { offsetInCU: 0x71, offset: 0x4794C, size: 0x8, addend: 0x0, symName: __Instance.instances, symObjAddr: 0x3F68, symBinAddr: 0x1B9F08, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0x47936, size: 0x8, addend: 0x0, symName: __Instance.onceToken, symObjAddr: 0x3F68, symBinAddr: 0x1B9F00, symSize: 0x0 }
+  - { offsetInCU: 0x71, offset: 0x4794C, size: 0x8, addend: 0x0, symName: __Instance.instances, symObjAddr: 0x3F70, symBinAddr: 0x1B9F08, symSize: 0x0 }
   - { offsetInCU: 0x185, offset: 0x47A60, size: 0x8, addend: 0x0, symName: '-[PTJSONToken initWithToken:]', symObjAddr: 0x0, symBinAddr: 0x2DF18, symSize: 0xC0 }
   - { offsetInCU: 0x1CD, offset: 0x47AA8, size: 0x8, addend: 0x0, symName: '+[PTJSONToken endArray]', symObjAddr: 0xC0, symBinAddr: 0x2DFD8, symSize: 0x28 }
   - { offsetInCU: 0x23B, offset: 0x47B16, size: 0x8, addend: 0x0, symName: '+[PTJSONToken endObject]', symObjAddr: 0x1B4, symBinAddr: 0x2E0CC, symSize: 0x28 }
@@ -934,8 +934,8 @@ relocations:
   - { offsetInCU: 0x338, offset: 0x4CA4B, size: 0x8, addend: 0x0, symName: '+[PTDiffusionCloseReason failedOver]', symObjAddr: 0x78C, symBinAddr: 0x363D0, symSize: 0x30 }
   - { offsetInCU: 0x27, offset: 0x4CB03, size: 0x8, addend: 0x0, symName: '+[PTDiffusionGenericDataType genericDataType]', symObjAddr: 0x0, symBinAddr: 0x36400, symSize: 0x80 }
   - { offsetInCU: 0x35, offset: 0x4CB11, size: 0x8, addend: 0x0, symName: '+[PTDiffusionGenericDataType genericDataType]', symObjAddr: 0x0, symBinAddr: 0x36400, symSize: 0x80 }
-  - { offsetInCU: 0x5F, offset: 0x4CB3B, size: 0x8, addend: 0x0, symName: _genericDataType.onceToken, symObjAddr: 0x2F20, symBinAddr: 0x1B9F10, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0x4CB51, size: 0x8, addend: 0x0, symName: _genericDataType.singleton, symObjAddr: 0x2F28, symBinAddr: 0x1B9F18, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x4CB3B, size: 0x8, addend: 0x0, symName: _genericDataType.onceToken, symObjAddr: 0x2F28, symBinAddr: 0x1B9F10, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x4CB51, size: 0x8, addend: 0x0, symName: _genericDataType.singleton, symObjAddr: 0x2F30, symBinAddr: 0x1B9F18, symSize: 0x0 }
   - { offsetInCU: 0x15E, offset: 0x4CC3A, size: 0x8, addend: 0x0, symName: '___45+[PTDiffusionGenericDataType genericDataType]_block_invoke', symObjAddr: 0x80, symBinAddr: 0x36480, symSize: 0x4C }
   - { offsetInCU: 0x188, offset: 0x4CC64, size: 0x8, addend: 0x0, symName: '-[PTDiffusionGenericDataType initAsSingleton]', symObjAddr: 0xCC, symBinAddr: 0x364CC, symSize: 0x8C }
   - { offsetInCU: 0x1C1, offset: 0x4CC9D, size: 0x8, addend: 0x0, symName: '-[PTDiffusionGenericDataType typeName]', symObjAddr: 0x158, symBinAddr: 0x36558, symSize: 0x1C }
@@ -984,8 +984,8 @@ relocations:
   - { offsetInCU: 0xCC, offset: 0x4DF8B, size: 0x8, addend: 0x0, symName: '-[PTDiffusionDefaultTopicTreeRegistrationDelegate diffusionTopicTreeRegistration:didFailWithError:]', symObjAddr: 0xD4, symBinAddr: 0x38370, symSize: 0x100 }
   - { offsetInCU: 0x27, offset: 0x4E03C, size: 0x8, addend: 0x0, symName: '+[PTDiffusionStringDataType stringDataType]', symObjAddr: 0x0, symBinAddr: 0x38470, symSize: 0x80 }
   - { offsetInCU: 0x35, offset: 0x4E04A, size: 0x8, addend: 0x0, symName: '+[PTDiffusionStringDataType stringDataType]', symObjAddr: 0x0, symBinAddr: 0x38470, symSize: 0x80 }
-  - { offsetInCU: 0x5F, offset: 0x4E074, size: 0x8, addend: 0x0, symName: _stringDataType.onceToken, symObjAddr: 0x3630, symBinAddr: 0x1B9F20, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0x4E08A, size: 0x8, addend: 0x0, symName: _stringDataType.singleton, symObjAddr: 0x3638, symBinAddr: 0x1B9F28, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x4E074, size: 0x8, addend: 0x0, symName: _stringDataType.onceToken, symObjAddr: 0x3638, symBinAddr: 0x1B9F20, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x4E08A, size: 0x8, addend: 0x0, symName: _stringDataType.singleton, symObjAddr: 0x3640, symBinAddr: 0x1B9F28, symSize: 0x0 }
   - { offsetInCU: 0x204, offset: 0x4E219, size: 0x8, addend: 0x0, symName: '___43+[PTDiffusionStringDataType stringDataType]_block_invoke', symObjAddr: 0x80, symBinAddr: 0x384F0, symSize: 0x4C }
   - { offsetInCU: 0x22E, offset: 0x4E243, size: 0x8, addend: 0x0, symName: '-[PTDiffusionStringDataType initAsSingleton]', symObjAddr: 0xCC, symBinAddr: 0x3853C, symSize: 0x8C }
   - { offsetInCU: 0x267, offset: 0x4E27C, size: 0x8, addend: 0x0, symName: '-[PTDiffusionStringDataType typeName]', symObjAddr: 0x158, symBinAddr: 0x385C8, symSize: 0x1C }
@@ -1167,8 +1167,8 @@ relocations:
   - { offsetInCU: 0x27, offset: 0x551FB, size: 0x8, addend: 0x0, symName: '-[PTStreamPair initWithMaximumQueueSize:]', symObjAddr: 0x0, symBinAddr: 0x445D0, symSize: 0xE4 }
   - { offsetInCU: 0x43, offset: 0x55217, size: 0x8, addend: 0x0, symName: '-[PTStreamPair onInputStreamHasBytesAvailable]', symObjAddr: 0x199C, symBinAddr: 0x45DE4, symSize: 0x470 }
   - { offsetInCU: 0x143, offset: 0x55317, size: 0x8, addend: 0x0, symName: __WorkQueue, symObjAddr: 0x454, symBinAddr: 0x44A24, symSize: 0x78 }
-  - { offsetInCU: 0x169, offset: 0x5533D, size: 0x8, addend: 0x0, symName: __WorkQueue.onceToken, symObjAddr: 0xC470, symBinAddr: 0x1B9F30, symSize: 0x0 }
-  - { offsetInCU: 0x17F, offset: 0x55353, size: 0x8, addend: 0x0, symName: __WorkQueue.queue, symObjAddr: 0xC478, symBinAddr: 0x1B9F38, symSize: 0x0 }
+  - { offsetInCU: 0x169, offset: 0x5533D, size: 0x8, addend: 0x0, symName: __WorkQueue.onceToken, symObjAddr: 0xC478, symBinAddr: 0x1B9F30, symSize: 0x0 }
+  - { offsetInCU: 0x17F, offset: 0x55353, size: 0x8, addend: 0x0, symName: __WorkQueue.queue, symObjAddr: 0xC480, symBinAddr: 0x1B9F38, symSize: 0x0 }
   - { offsetInCU: 0x2FC, offset: 0x554D0, size: 0x8, addend: 0x0, symName: '-[PTStreamPair initWithMaximumQueueSize:]', symObjAddr: 0x0, symBinAddr: 0x445D0, symSize: 0xE4 }
   - { offsetInCU: 0x344, offset: 0x55518, size: 0x8, addend: 0x0, symName: '-[PTStreamPair dealloc]', symObjAddr: 0xE4, symBinAddr: 0x446B4, symSize: 0x9C }
   - { offsetInCU: 0x379, offset: 0x5554D, size: 0x8, addend: 0x0, symName: '-[PTStreamPair openWithInputStream:outputStream:secure:sslOptions:]', symObjAddr: 0x180, symBinAddr: 0x44750, symSize: 0x2D4 }
@@ -1212,8 +1212,8 @@ relocations:
   - { offsetInCU: 0x317, offset: 0x56627, size: 0x8, addend: 0x0, symName: '+[PTDiffusionPathPermission exposeBranch]', symObjAddr: 0x700, symBinAddr: 0x47774, symSize: 0x30 }
   - { offsetInCU: 0x27, offset: 0x566DF, size: 0x8, addend: 0x0, symName: '+[PTStreamThread thread]', symObjAddr: 0x0, symBinAddr: 0x477A4, symSize: 0xB4 }
   - { offsetInCU: 0x35, offset: 0x566ED, size: 0x8, addend: 0x0, symName: '+[PTStreamThread thread]', symObjAddr: 0x0, symBinAddr: 0x477A4, symSize: 0xB4 }
-  - { offsetInCU: 0x5F, offset: 0x56717, size: 0x8, addend: 0x0, symName: _thread.thread, symObjAddr: 0x7BB8, symBinAddr: 0x1B9F40, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0x5672D, size: 0x8, addend: 0x0, symName: _thread.onceToken, symObjAddr: 0x7BC0, symBinAddr: 0x1B9F48, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x56717, size: 0x8, addend: 0x0, symName: _thread.thread, symObjAddr: 0x7BC0, symBinAddr: 0x1B9F40, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x5672D, size: 0x8, addend: 0x0, symName: _thread.onceToken, symObjAddr: 0x7BC8, symBinAddr: 0x1B9F48, symSize: 0x0 }
   - { offsetInCU: 0x1AE, offset: 0x56866, size: 0x8, addend: 0x0, symName: '___24+[PTStreamThread thread]_block_invoke', symObjAddr: 0xB4, symBinAddr: 0x47858, symSize: 0x98 }
   - { offsetInCU: 0x1EE, offset: 0x568A6, size: 0x8, addend: 0x0, symName: '+[PTStreamThread openInputStream:outputStream:secure:sslOptions:error:]', symObjAddr: 0x14C, symBinAddr: 0x478F0, symSize: 0x104 }
   - { offsetInCU: 0x272, offset: 0x5692A, size: 0x8, addend: 0x0, symName: '+[PTStreamThread secureInputStream:outputStream:sslOptions:error:]', symObjAddr: 0x250, symBinAddr: 0x479F4, symSize: 0xE8 }
@@ -1486,11 +1486,11 @@ relocations:
   - { offsetInCU: 0x2F8, offset: 0x60046, size: 0x8, addend: 0x0, symName: '-[PTDiffusionStreamConversationHandler .cxx_destruct]', symObjAddr: 0x538, symBinAddr: 0x5866C, symSize: 0x70 }
   - { offsetInCU: 0x27, offset: 0x6021A, size: 0x8, addend: 0x0, symName: '+[PTDiffusionBinaryDeltaType binaryDeltaType]', symObjAddr: 0x0, symBinAddr: 0x586DC, symSize: 0x80 }
   - { offsetInCU: 0x35, offset: 0x60228, size: 0x8, addend: 0x0, symName: '+[PTDiffusionBinaryDeltaType binaryDeltaType]', symObjAddr: 0x0, symBinAddr: 0x586DC, symSize: 0x80 }
-  - { offsetInCU: 0x5F, offset: 0x60252, size: 0x8, addend: 0x0, symName: _binaryDeltaType.onceToken, symObjAddr: 0x4330, symBinAddr: 0x1B9F50, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0x60268, size: 0x8, addend: 0x0, symName: _binaryDeltaType.singleton, symObjAddr: 0x4338, symBinAddr: 0x1B9F58, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x60252, size: 0x8, addend: 0x0, symName: _binaryDeltaType.onceToken, symObjAddr: 0x4338, symBinAddr: 0x1B9F50, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x60268, size: 0x8, addend: 0x0, symName: _binaryDeltaType.singleton, symObjAddr: 0x4340, symBinAddr: 0x1B9F58, symSize: 0x0 }
   - { offsetInCU: 0xDF, offset: 0x602D2, size: 0x8, addend: 0x0, symName: '-[PTDiffusionBinaryDeltaType deltaForNoChange]', symObjAddr: 0xAD0, symBinAddr: 0x591AC, symSize: 0x80 }
-  - { offsetInCU: 0x109, offset: 0x602FC, size: 0x8, addend: 0x0, symName: _deltaForNoChange.onceToken, symObjAddr: 0x4340, symBinAddr: 0x1B9F60, symSize: 0x0 }
-  - { offsetInCU: 0x11F, offset: 0x60312, size: 0x8, addend: 0x0, symName: _deltaForNoChange.noChangeDelta, symObjAddr: 0x4348, symBinAddr: 0x1B9F68, symSize: 0x0 }
+  - { offsetInCU: 0x109, offset: 0x602FC, size: 0x8, addend: 0x0, symName: _deltaForNoChange.onceToken, symObjAddr: 0x4348, symBinAddr: 0x1B9F60, symSize: 0x0 }
+  - { offsetInCU: 0x11F, offset: 0x60312, size: 0x8, addend: 0x0, symName: _deltaForNoChange.noChangeDelta, symObjAddr: 0x4350, symBinAddr: 0x1B9F68, symSize: 0x0 }
   - { offsetInCU: 0x21B, offset: 0x6040E, size: 0x8, addend: 0x0, symName: '___45+[PTDiffusionBinaryDeltaType binaryDeltaType]_block_invoke', symObjAddr: 0x80, symBinAddr: 0x5875C, symSize: 0x4C }
   - { offsetInCU: 0x245, offset: 0x60438, size: 0x8, addend: 0x0, symName: '+[PTDiffusionBinaryDeltaType binaryDeltaTypeWithName:]', symObjAddr: 0xCC, symBinAddr: 0x587A8, symSize: 0x158 }
   - { offsetInCU: 0x29C, offset: 0x6048F, size: 0x8, addend: 0x0, symName: '-[PTDiffusionBinaryDeltaType initAsSingleton]', symObjAddr: 0x224, symBinAddr: 0x58900, symSize: 0x8C }
@@ -1593,17 +1593,17 @@ relocations:
   - { offsetInCU: 0x5CF, offset: 0x6442A, size: 0x8, addend: 0x0, symName: '-[PTDiffusionTopicMetricCollector(PTDescribable) describableProperties]', symObjAddr: 0xC24, symBinAddr: 0x5E74C, symSize: 0x3A0 }
   - { offsetInCU: 0x27, offset: 0x64583, size: 0x8, addend: 0x0, symName: '-[PTDiffusionConversationState init]', symObjAddr: 0x0, symBinAddr: 0x5EAEC, symSize: 0xD0 }
   - { offsetInCU: 0x35, offset: 0x64591, size: 0x8, addend: 0x0, symName: __ValidState, symObjAddr: 0xD0, symBinAddr: 0x5EBBC, symSize: 0x78 }
-  - { offsetInCU: 0x5B, offset: 0x645B7, size: 0x8, addend: 0x0, symName: __ValidState.onceToken, symObjAddr: 0x6F90, symBinAddr: 0x1B9F70, symSize: 0x0 }
-  - { offsetInCU: 0x71, offset: 0x645CD, size: 0x8, addend: 0x0, symName: __ValidState.state, symObjAddr: 0x6F98, symBinAddr: 0x1B9F78, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0x645B7, size: 0x8, addend: 0x0, symName: __ValidState.onceToken, symObjAddr: 0x6F98, symBinAddr: 0x1B9F70, symSize: 0x0 }
+  - { offsetInCU: 0x71, offset: 0x645CD, size: 0x8, addend: 0x0, symName: __ValidState.state, symObjAddr: 0x6FA0, symBinAddr: 0x1B9F78, symSize: 0x0 }
   - { offsetInCU: 0xD4, offset: 0x64630, size: 0x8, addend: 0x0, symName: __ClosedState, symObjAddr: 0x660, symBinAddr: 0x5F14C, symSize: 0x78 }
-  - { offsetInCU: 0xFA, offset: 0x64656, size: 0x8, addend: 0x0, symName: __ClosedState.onceToken, symObjAddr: 0x6FA0, symBinAddr: 0x1B9F80, symSize: 0x0 }
-  - { offsetInCU: 0x110, offset: 0x6466C, size: 0x8, addend: 0x0, symName: __ClosedState.state, symObjAddr: 0x6FA8, symBinAddr: 0x1B9F88, symSize: 0x0 }
+  - { offsetInCU: 0xFA, offset: 0x64656, size: 0x8, addend: 0x0, symName: __ClosedState.onceToken, symObjAddr: 0x6FA8, symBinAddr: 0x1B9F80, symSize: 0x0 }
+  - { offsetInCU: 0x110, offset: 0x6466C, size: 0x8, addend: 0x0, symName: __ClosedState.state, symObjAddr: 0x6FB0, symBinAddr: 0x1B9F88, symSize: 0x0 }
   - { offsetInCU: 0x143, offset: 0x6469F, size: 0x8, addend: 0x0, symName: __DiscardedState, symObjAddr: 0x74C, symBinAddr: 0x5F238, symSize: 0x78 }
-  - { offsetInCU: 0x169, offset: 0x646C5, size: 0x8, addend: 0x0, symName: __DiscardedState.onceToken, symObjAddr: 0x6FB0, symBinAddr: 0x1B9F90, symSize: 0x0 }
-  - { offsetInCU: 0x17F, offset: 0x646DB, size: 0x8, addend: 0x0, symName: __DiscardedState.state, symObjAddr: 0x6FB8, symBinAddr: 0x1B9F98, symSize: 0x0 }
+  - { offsetInCU: 0x169, offset: 0x646C5, size: 0x8, addend: 0x0, symName: __DiscardedState.onceToken, symObjAddr: 0x6FB8, symBinAddr: 0x1B9F90, symSize: 0x0 }
+  - { offsetInCU: 0x17F, offset: 0x646DB, size: 0x8, addend: 0x0, symName: __DiscardedState.state, symObjAddr: 0x6FC0, symBinAddr: 0x1B9F98, symSize: 0x0 }
   - { offsetInCU: 0x1B2, offset: 0x6470E, size: 0x8, addend: 0x0, symName: __ExceptionState, symObjAddr: 0x980, symBinAddr: 0x5F46C, symSize: 0x78 }
-  - { offsetInCU: 0x1D8, offset: 0x64734, size: 0x8, addend: 0x0, symName: __ExceptionState.onceToken, symObjAddr: 0x6FC0, symBinAddr: 0x1B9FA0, symSize: 0x0 }
-  - { offsetInCU: 0x1EE, offset: 0x6474A, size: 0x8, addend: 0x0, symName: __ExceptionState.state, symObjAddr: 0x6FC8, symBinAddr: 0x1B9FA8, symSize: 0x0 }
+  - { offsetInCU: 0x1D8, offset: 0x64734, size: 0x8, addend: 0x0, symName: __ExceptionState.onceToken, symObjAddr: 0x6FC8, symBinAddr: 0x1B9FA0, symSize: 0x0 }
+  - { offsetInCU: 0x1EE, offset: 0x6474A, size: 0x8, addend: 0x0, symName: __ExceptionState.state, symObjAddr: 0x6FD0, symBinAddr: 0x1B9FA8, symSize: 0x0 }
   - { offsetInCU: 0x2A0, offset: 0x647FC, size: 0x8, addend: 0x0, symName: '-[PTDiffusionConversationState init]', symObjAddr: 0x0, symBinAddr: 0x5EAEC, symSize: 0xD0 }
   - { offsetInCU: 0x314, offset: 0x64870, size: 0x8, addend: 0x0, symName: '-[PTDiffusionConversationState setNewState:ifState:]', symObjAddr: 0x148, symBinAddr: 0x5EC34, symSize: 0x25C }
   - { offsetInCU: 0x36B, offset: 0x648C7, size: 0x8, addend: 0x0, symName: '-[PTDiffusionConversationState setNewState:]', symObjAddr: 0x3A4, symBinAddr: 0x5EE90, symSize: 0x1C4 }
@@ -1692,8 +1692,8 @@ relocations:
   - { offsetInCU: 0x27, offset: 0x66DC2, size: 0x8, addend: 0x0, symName: '-[PTCBOREncoder initWithDataOutputStream:]', symObjAddr: 0x0, symBinAddr: 0x62E84, symSize: 0x174 }
   - { offsetInCU: 0x4E, offset: 0x66DE9, size: 0x8, addend: 0x0, symName: '-[PTCBOREncoder appendSimpleValueItem:]', symObjAddr: 0xBF8, symBinAddr: 0x63A7C, symSize: 0xD8 }
   - { offsetInCU: 0xBB, offset: 0x66E56, size: 0x8, addend: 0x0, symName: __NaNData, symObjAddr: 0x920, symBinAddr: 0x637A4, symSize: 0x78 }
-  - { offsetInCU: 0xE1, offset: 0x66E7C, size: 0x8, addend: 0x0, symName: __NaNData.onceToken, symObjAddr: 0x5420, symBinAddr: 0x1B9FB0, symSize: 0x0 }
-  - { offsetInCU: 0xF7, offset: 0x66E92, size: 0x8, addend: 0x0, symName: __NaNData.data, symObjAddr: 0x5428, symBinAddr: 0x1B9FB8, symSize: 0x0 }
+  - { offsetInCU: 0xE1, offset: 0x66E7C, size: 0x8, addend: 0x0, symName: __NaNData.onceToken, symObjAddr: 0x5428, symBinAddr: 0x1B9FB0, symSize: 0x0 }
+  - { offsetInCU: 0xF7, offset: 0x66E92, size: 0x8, addend: 0x0, symName: __NaNData.data, symObjAddr: 0x5430, symBinAddr: 0x1B9FB8, symSize: 0x0 }
   - { offsetInCU: 0x235, offset: 0x66FD0, size: 0x8, addend: 0x0, symName: '-[PTCBOREncoder initWithDataOutputStream:]', symObjAddr: 0x0, symBinAddr: 0x62E84, symSize: 0x174 }
   - { offsetInCU: 0x27D, offset: 0x67018, size: 0x8, addend: 0x0, symName: '-[PTCBOREncoder appendTokenWithMajorType:value:]', symObjAddr: 0x174, symBinAddr: 0x62FF8, symSize: 0x1A8 }
   - { offsetInCU: 0x2FD, offset: 0x67098, size: 0x8, addend: 0x0, symName: '-[PTCBOREncoder appendTokenWithMajorType:info:]', symObjAddr: 0x31C, symBinAddr: 0x631A0, symSize: 0x54 }
@@ -1791,19 +1791,19 @@ relocations:
   - { offsetInCU: 0x27, offset: 0x6A0C2, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorClosedByClient, symObjAddr: 0x0, symBinAddr: 0x66D94, symSize: 0x78 }
   - { offsetInCU: 0x41, offset: 0x6A0DC, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorDomain, symObjAddr: 0xAD0, symBinAddr: 0x1788E8, symSize: 0x0 }
   - { offsetInCU: 0x55, offset: 0x6A0F0, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorClosedByClient, symObjAddr: 0x0, symBinAddr: 0x66D94, symSize: 0x78 }
-  - { offsetInCU: 0x7B, offset: 0x6A116, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorClosedByClient.onceToken, symObjAddr: 0x5630, symBinAddr: 0x1B9FC0, symSize: 0x0 }
-  - { offsetInCU: 0x91, offset: 0x6A12C, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorClosedByClient.error, symObjAddr: 0x5638, symBinAddr: 0x1B9FC8, symSize: 0x0 }
+  - { offsetInCU: 0x7B, offset: 0x6A116, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorClosedByClient.onceToken, symObjAddr: 0x5638, symBinAddr: 0x1B9FC0, symSize: 0x0 }
+  - { offsetInCU: 0x91, offset: 0x6A12C, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorClosedByClient.error, symObjAddr: 0x5640, symBinAddr: 0x1B9FC8, symSize: 0x0 }
   - { offsetInCU: 0xD0, offset: 0x6A16B, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorClosedByServer, symObjAddr: 0xC8, symBinAddr: 0x66E5C, symSize: 0x78 }
-  - { offsetInCU: 0xF6, offset: 0x6A191, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorClosedByServer.onceToken, symObjAddr: 0x5640, symBinAddr: 0x1B9FD0, symSize: 0x0 }
-  - { offsetInCU: 0x10C, offset: 0x6A1A7, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorClosedByServer.error, symObjAddr: 0x5648, symBinAddr: 0x1B9FD8, symSize: 0x0 }
+  - { offsetInCU: 0xF6, offset: 0x6A191, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorClosedByServer.onceToken, symObjAddr: 0x5648, symBinAddr: 0x1B9FD0, symSize: 0x0 }
+  - { offsetInCU: 0x10C, offset: 0x6A1A7, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorClosedByServer.error, symObjAddr: 0x5650, symBinAddr: 0x1B9FD8, symSize: 0x0 }
   - { offsetInCU: 0x13F, offset: 0x6A1DA, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorDisconnected, symObjAddr: 0x190, symBinAddr: 0x66F24, symSize: 0x10C }
-  - { offsetInCU: 0x165, offset: 0x6A200, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorDisconnected.onceToken, symObjAddr: 0x5650, symBinAddr: 0x1B9FE0, symSize: 0x0 }
-  - { offsetInCU: 0x17B, offset: 0x6A216, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorDisconnected.error, symObjAddr: 0x5658, symBinAddr: 0x1B9FE8, symSize: 0x0 }
-  - { offsetInCU: 0x191, offset: 0x6A22C, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorDisconnected.onceToken.4, symObjAddr: 0x5660, symBinAddr: 0x1B9FF0, symSize: 0x0 }
-  - { offsetInCU: 0x1A7, offset: 0x6A242, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorDisconnected.error.5, symObjAddr: 0x5668, symBinAddr: 0x1B9FF8, symSize: 0x0 }
+  - { offsetInCU: 0x165, offset: 0x6A200, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorDisconnected.onceToken, symObjAddr: 0x5658, symBinAddr: 0x1B9FE0, symSize: 0x0 }
+  - { offsetInCU: 0x17B, offset: 0x6A216, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorDisconnected.error, symObjAddr: 0x5660, symBinAddr: 0x1B9FE8, symSize: 0x0 }
+  - { offsetInCU: 0x191, offset: 0x6A22C, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorDisconnected.onceToken.4, symObjAddr: 0x5668, symBinAddr: 0x1B9FF0, symSize: 0x0 }
+  - { offsetInCU: 0x1A7, offset: 0x6A242, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorDisconnected.error.5, symObjAddr: 0x5670, symBinAddr: 0x1B9FF8, symSize: 0x0 }
   - { offsetInCU: 0x211, offset: 0x6A2AC, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorSecurity, symObjAddr: 0x4C8, symBinAddr: 0x6725C, symSize: 0x78 }
-  - { offsetInCU: 0x237, offset: 0x6A2D2, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorSecurity.onceToken, symObjAddr: 0x5670, symBinAddr: 0x1BA000, symSize: 0x0 }
-  - { offsetInCU: 0x24D, offset: 0x6A2E8, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorSecurity.error, symObjAddr: 0x5678, symBinAddr: 0x1BA008, symSize: 0x0 }
+  - { offsetInCU: 0x237, offset: 0x6A2D2, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorSecurity.onceToken, symObjAddr: 0x5678, symBinAddr: 0x1BA000, symSize: 0x0 }
+  - { offsetInCU: 0x24D, offset: 0x6A2E8, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionErrorSecurity.error, symObjAddr: 0x5680, symBinAddr: 0x1BA008, symSize: 0x0 }
   - { offsetInCU: 0x2D9, offset: 0x6A374, size: 0x8, addend: 0x0, symName: ___PTDiffusionSessionErrorClosedByClient_block_invoke, symObjAddr: 0x78, symBinAddr: 0x66E0C, symSize: 0x50 }
   - { offsetInCU: 0x303, offset: 0x6A39E, size: 0x8, addend: 0x0, symName: ___PTDiffusionSessionErrorClosedByServer_block_invoke, symObjAddr: 0x140, symBinAddr: 0x66ED4, symSize: 0x50 }
   - { offsetInCU: 0x32D, offset: 0x6A3C8, size: 0x8, addend: 0x0, symName: ___PTDiffusionSessionErrorDisconnected_block_invoke, symObjAddr: 0x29C, symBinAddr: 0x67030, symSize: 0x50 }
@@ -2203,11 +2203,11 @@ relocations:
   - { offsetInCU: 0x27, offset: 0x76488, size: 0x8, addend: 0x0, symName: _PTDiffusionEscape, symObjAddr: 0x0, symBinAddr: 0x7E53C, symSize: 0x2D8 }
   - { offsetInCU: 0x41, offset: 0x764A2, size: 0x8, addend: 0x0, symName: _PTDiffusionErrorDomain, symObjAddr: 0x2A18, symBinAddr: 0x178B98, symSize: 0x0 }
   - { offsetInCU: 0x55, offset: 0x764B6, size: 0x8, addend: 0x0, symName: __Escapes, symObjAddr: 0x2D8, symBinAddr: 0x7E814, symSize: 0x78 }
-  - { offsetInCU: 0x7B, offset: 0x764DC, size: 0x8, addend: 0x0, symName: __Escapes.escapes, symObjAddr: 0x8E88, symBinAddr: 0x1BA010, symSize: 0x0 }
-  - { offsetInCU: 0x91, offset: 0x764F2, size: 0x8, addend: 0x0, symName: __Escapes.onceToken, symObjAddr: 0x8E90, symBinAddr: 0x1BA018, symSize: 0x0 }
+  - { offsetInCU: 0x7B, offset: 0x764DC, size: 0x8, addend: 0x0, symName: __Escapes.escapes, symObjAddr: 0x8E90, symBinAddr: 0x1BA010, symSize: 0x0 }
+  - { offsetInCU: 0x91, offset: 0x764F2, size: 0x8, addend: 0x0, symName: __Escapes.onceToken, symObjAddr: 0x8E98, symBinAddr: 0x1BA018, symSize: 0x0 }
   - { offsetInCU: 0xD0, offset: 0x76531, size: 0x8, addend: 0x0, symName: __UnreservedCharacters, symObjAddr: 0x15F8, symBinAddr: 0x7FB34, symSize: 0x78 }
-  - { offsetInCU: 0xF6, offset: 0x76557, size: 0x8, addend: 0x0, symName: __UnreservedCharacters.onceToken, symObjAddr: 0x8E98, symBinAddr: 0x1BA020, symSize: 0x0 }
-  - { offsetInCU: 0x10C, offset: 0x7656D, size: 0x8, addend: 0x0, symName: __UnreservedCharacters.characters, symObjAddr: 0x8EA0, symBinAddr: 0x1BA028, symSize: 0x0 }
+  - { offsetInCU: 0xF6, offset: 0x76557, size: 0x8, addend: 0x0, symName: __UnreservedCharacters.onceToken, symObjAddr: 0x8EA0, symBinAddr: 0x1BA020, symSize: 0x0 }
+  - { offsetInCU: 0x10C, offset: 0x7656D, size: 0x8, addend: 0x0, symName: __UnreservedCharacters.characters, symObjAddr: 0x8EA8, symBinAddr: 0x1BA028, symSize: 0x0 }
   - { offsetInCU: 0x18B, offset: 0x765EC, size: 0x8, addend: 0x0, symName: _PTDiffusionEscape, symObjAddr: 0x0, symBinAddr: 0x7E53C, symSize: 0x2D8 }
   - { offsetInCU: 0x243, offset: 0x766A4, size: 0x8, addend: 0x0, symName: _PTDiffusionRolesFromString, symObjAddr: 0x350, symBinAddr: 0x7E88C, symSize: 0x50C }
   - { offsetInCU: 0x30E, offset: 0x7676F, size: 0x8, addend: 0x0, symName: ___Block_byref_object_copy_, symObjAddr: 0x85C, symBinAddr: 0x7ED98, symSize: 0x54 }
@@ -2293,8 +2293,8 @@ relocations:
   - { offsetInCU: 0x144, offset: 0x79552, size: 0x8, addend: 0x0, symName: '-[PTDiffusionNotifySubscriptionService .cxx_destruct]', symObjAddr: 0x3B4, symBinAddr: 0x84A74, symSize: 0x38 }
   - { offsetInCU: 0x27, offset: 0x79699, size: 0x8, addend: 0x0, symName: '+[PTDiffusionDeltaBuilder dataForDeltaFromData:toData:]', symObjAddr: 0x0, symBinAddr: 0x84AAC, symSize: 0x334 }
   - { offsetInCU: 0x35, offset: 0x796A7, size: 0x8, addend: 0x0, symName: '+[PTDiffusionDeltaBuilder noChangeDeltaData]', symObjAddr: 0x334, symBinAddr: 0x84DE0, symSize: 0x80 }
-  - { offsetInCU: 0x5F, offset: 0x796D1, size: 0x8, addend: 0x0, symName: _noChangeDeltaData.onceToken, symObjAddr: 0x4F60, symBinAddr: 0x1BA030, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0x796E7, size: 0x8, addend: 0x0, symName: _noChangeDeltaData.data, symObjAddr: 0x4F68, symBinAddr: 0x1BA038, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x796D1, size: 0x8, addend: 0x0, symName: _noChangeDeltaData.onceToken, symObjAddr: 0x4F68, symBinAddr: 0x1BA030, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x796E7, size: 0x8, addend: 0x0, symName: _noChangeDeltaData.data, symObjAddr: 0x4F70, symBinAddr: 0x1BA038, symSize: 0x0 }
   - { offsetInCU: 0x1BB, offset: 0x7982D, size: 0x8, addend: 0x0, symName: '+[PTDiffusionDeltaBuilder dataForDeltaFromData:toData:]', symObjAddr: 0x0, symBinAddr: 0x84AAC, symSize: 0x334 }
   - { offsetInCU: 0x273, offset: 0x798E5, size: 0x8, addend: 0x0, symName: '___44+[PTDiffusionDeltaBuilder noChangeDeltaData]_block_invoke', symObjAddr: 0x3B4, symBinAddr: 0x84E60, symSize: 0x5C }
   - { offsetInCU: 0x2BB, offset: 0x7992D, size: 0x8, addend: 0x0, symName: '+[PTDiffusionDeltaBuilder replacementDeltaDataWithNewData:]', symObjAddr: 0x410, symBinAddr: 0x84EBC, symSize: 0xD4 }
@@ -2365,7 +2365,7 @@ relocations:
   - { offsetInCU: 0x12C, offset: 0x7CA20, size: 0x8, addend: 0x0, symName: '-[PTDiffusionMessagingReceiverRegistrationParameters .cxx_destruct]', symObjAddr: 0x320, symBinAddr: 0x88DA8, symSize: 0x58 }
   - { offsetInCU: 0x27, offset: 0x7CB32, size: 0x8, addend: 0x0, symName: '-[PTActivityWatchdog initWithTimeoutTimeInterval:]', symObjAddr: 0x0, symBinAddr: 0x88E00, symSize: 0xC0 }
   - { offsetInCU: 0x35, offset: 0x7CB40, size: 0x8, addend: 0x0, symName: '-[PTActivityWatchdog registerActivity]', symObjAddr: 0xC0, symBinAddr: 0x88EC0, symSize: 0x2FC }
-  - { offsetInCU: 0x5B, offset: 0x7CB66, size: 0x8, addend: 0x0, symName: _registerActivity.onceToken, symObjAddr: 0x3A00, symBinAddr: 0x1BA040, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0x7CB66, size: 0x8, addend: 0x0, symName: _registerActivity.onceToken, symObjAddr: 0x3A08, symBinAddr: 0x1BA040, symSize: 0x0 }
   - { offsetInCU: 0x1A8, offset: 0x7CCB3, size: 0x8, addend: 0x0, symName: '-[PTActivityWatchdog initWithTimeoutTimeInterval:]', symObjAddr: 0x0, symBinAddr: 0x88E00, symSize: 0xC0 }
   - { offsetInCU: 0x225, offset: 0x7CD30, size: 0x8, addend: 0x0, symName: '___38-[PTActivityWatchdog registerActivity]_block_invoke', symObjAddr: 0x3BC, symBinAddr: 0x891BC, symSize: 0x60 }
   - { offsetInCU: 0x24F, offset: 0x7CD5A, size: 0x8, addend: 0x0, symName: '___38-[PTActivityWatchdog registerActivity]_block_invoke_2', symObjAddr: 0x41C, symBinAddr: 0x8921C, symSize: 0x50 }
@@ -2584,8 +2584,8 @@ relocations:
   - { offsetInCU: 0x57F, offset: 0x8552D, size: 0x8, addend: 0x0, symName: '-[PTDiffusionFullPathTopicSelector .cxx_destruct]', symObjAddr: 0x1120, symBinAddr: 0x99628, symSize: 0x38 }
   - { offsetInCU: 0x27, offset: 0x8562C, size: 0x8, addend: 0x0, symName: '+[PTStreamEventHandler sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x99660, symSize: 0x80 }
   - { offsetInCU: 0x35, offset: 0x8563A, size: 0x8, addend: 0x0, symName: '+[PTStreamEventHandler sharedInstance]', symObjAddr: 0x0, symBinAddr: 0x99660, symSize: 0x80 }
-  - { offsetInCU: 0x5F, offset: 0x85664, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x34C0, symBinAddr: 0x1BA048, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0x8567A, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x34C8, symBinAddr: 0x1BA050, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x85664, size: 0x8, addend: 0x0, symName: _sharedInstance.instance, symObjAddr: 0x34C8, symBinAddr: 0x1BA048, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x8567A, size: 0x8, addend: 0x0, symName: _sharedInstance.onceToken, symObjAddr: 0x34D0, symBinAddr: 0x1BA050, symSize: 0x0 }
   - { offsetInCU: 0x134, offset: 0x85739, size: 0x8, addend: 0x0, symName: '___38+[PTStreamEventHandler sharedInstance]_block_invoke', symObjAddr: 0x80, symBinAddr: 0x996E0, symSize: 0x4C }
   - { offsetInCU: 0x15E, offset: 0x85763, size: 0x8, addend: 0x0, symName: '-[PTStreamEventHandler initWithNoDelegates]', symObjAddr: 0xCC, symBinAddr: 0x9972C, symSize: 0xD4 }
   - { offsetInCU: 0x197, offset: 0x8579C, size: 0x8, addend: 0x0, symName: '-[PTStreamEventHandler registerDelegate:forStream:]', symObjAddr: 0x1A0, symBinAddr: 0x99800, symSize: 0x274 }
@@ -2642,12 +2642,12 @@ relocations:
   - { offsetInCU: 0x266, offset: 0x86DD0, size: 0x8, addend: 0x0, symName: '-[PTDiffusionErrorReportList .cxx_destruct]', symObjAddr: 0x608, symBinAddr: 0x9CB5C, symSize: 0x30 }
   - { offsetInCU: 0x27, offset: 0x86F13, size: 0x8, addend: 0x0, symName: '+[PTDiffusionRecordFieldNumberFormatter numberFromString:scale:error:]', symObjAddr: 0x0, symBinAddr: 0x9CB8C, symSize: 0x590 }
   - { offsetInCU: 0x6F, offset: 0x86F5B, size: 0x8, addend: 0x0, symName: __InvalidCharacters, symObjAddr: 0x590, symBinAddr: 0x9D11C, symSize: 0xB0 }
-  - { offsetInCU: 0x95, offset: 0x86F81, size: 0x8, addend: 0x0, symName: __InvalidCharacters.integerSet, symObjAddr: 0x6B00, symBinAddr: 0x1BA058, symSize: 0x0 }
-  - { offsetInCU: 0xAB, offset: 0x86F97, size: 0x8, addend: 0x0, symName: __InvalidCharacters.decimalSet, symObjAddr: 0x6B08, symBinAddr: 0x1BA060, symSize: 0x0 }
-  - { offsetInCU: 0xC1, offset: 0x86FAD, size: 0x8, addend: 0x0, symName: __InvalidCharacters.onceToken, symObjAddr: 0x6B10, symBinAddr: 0x1BA068, symSize: 0x0 }
+  - { offsetInCU: 0x95, offset: 0x86F81, size: 0x8, addend: 0x0, symName: __InvalidCharacters.integerSet, symObjAddr: 0x6B08, symBinAddr: 0x1BA058, symSize: 0x0 }
+  - { offsetInCU: 0xAB, offset: 0x86F97, size: 0x8, addend: 0x0, symName: __InvalidCharacters.decimalSet, symObjAddr: 0x6B10, symBinAddr: 0x1BA060, symSize: 0x0 }
+  - { offsetInCU: 0xC1, offset: 0x86FAD, size: 0x8, addend: 0x0, symName: __InvalidCharacters.onceToken, symObjAddr: 0x6B18, symBinAddr: 0x1BA068, symSize: 0x0 }
   - { offsetInCU: 0x108, offset: 0x86FF4, size: 0x8, addend: 0x0, symName: __Formatter, symObjAddr: 0x640, symBinAddr: 0x9D1CC, symSize: 0x304 }
-  - { offsetInCU: 0x12E, offset: 0x8701A, size: 0x8, addend: 0x0, symName: __Formatter.formatters, symObjAddr: 0x6B18, symBinAddr: 0x1BA070, symSize: 0x0 }
-  - { offsetInCU: 0x144, offset: 0x87030, size: 0x8, addend: 0x0, symName: __Formatter.onceToken, symObjAddr: 0x6B20, symBinAddr: 0x1BA078, symSize: 0x0 }
+  - { offsetInCU: 0x12E, offset: 0x8701A, size: 0x8, addend: 0x0, symName: __Formatter.formatters, symObjAddr: 0x6B20, symBinAddr: 0x1BA070, symSize: 0x0 }
+  - { offsetInCU: 0x144, offset: 0x87030, size: 0x8, addend: 0x0, symName: __Formatter.onceToken, symObjAddr: 0x6B28, symBinAddr: 0x1BA078, symSize: 0x0 }
   - { offsetInCU: 0x264, offset: 0x87150, size: 0x8, addend: 0x0, symName: '+[PTDiffusionRecordFieldNumberFormatter numberFromString:scale:error:]', symObjAddr: 0x0, symBinAddr: 0x9CB8C, symSize: 0x590 }
   - { offsetInCU: 0x3A7, offset: 0x87293, size: 0x8, addend: 0x0, symName: '+[PTDiffusionRecordFieldNumberFormatter stringFromNumber:scale:]', symObjAddr: 0x944, symBinAddr: 0x9D4D0, symSize: 0x180 }
   - { offsetInCU: 0x41C, offset: 0x87308, size: 0x8, addend: 0x0, symName: '-[PTDiffusionRecordFieldNumberFormatter initWithScale:]', symObjAddr: 0xAC4, symBinAddr: 0x9D650, symSize: 0xC0 }
@@ -2813,19 +2813,19 @@ relocations:
   - { offsetInCU: 0x8F9, offset: 0x8CD82, size: 0x8, addend: 0x0, symName: '-[PTDiffusionTransport(PTDiffusionConnectionResponseReaderDelegate) diffusionConnectionResponseReader:didReadConnectionResponse:error:]', symObjAddr: 0x1444, symBinAddr: 0xA6D78, symSize: 0x3F0 }
   - { offsetInCU: 0x9B9, offset: 0x8CE42, size: 0x8, addend: 0x0, symName: '-[PTDiffusionTransport(PTDiffusionMessageReaderDelegate) diffusionMessageReader:didReadMessage:error:]', symObjAddr: 0x1834, symBinAddr: 0xA7168, symSize: 0x130 }
   - { offsetInCU: 0x27, offset: 0x8D181, size: 0x8, addend: 0x0, symName: _PTLog, symObjAddr: 0x0, symBinAddr: 0xA7298, symSize: 0x6C0 }
-  - { offsetInCU: 0x4B, offset: 0x8D1A5, size: 0x8, addend: 0x0, symName: __FormatArray, symObjAddr: 0x5378, symBinAddr: 0x1BA080, symSize: 0x0 }
-  - { offsetInCU: 0x66, offset: 0x8D1C0, size: 0x8, addend: 0x0, symName: _PTLogSwitches, symObjAddr: 0x53B8, symBinAddr: 0x1BA308, symSize: 0x0 }
-  - { offsetInCU: 0xCF, offset: 0x8D229, size: 0x8, addend: 0x0, symName: __MessagePrinter, symObjAddr: 0x5380, symBinAddr: 0x1BA088, symSize: 0x0 }
+  - { offsetInCU: 0x4B, offset: 0x8D1A5, size: 0x8, addend: 0x0, symName: __FormatArray, symObjAddr: 0x5380, symBinAddr: 0x1BA080, symSize: 0x0 }
+  - { offsetInCU: 0x66, offset: 0x8D1C0, size: 0x8, addend: 0x0, symName: _PTLogSwitches, symObjAddr: 0x53C0, symBinAddr: 0x1BA308, symSize: 0x0 }
+  - { offsetInCU: 0xCF, offset: 0x8D229, size: 0x8, addend: 0x0, symName: __MessagePrinter, symObjAddr: 0x5388, symBinAddr: 0x1BA088, symSize: 0x0 }
   - { offsetInCU: 0x15A, offset: 0x8D2B4, size: 0x8, addend: 0x0, symName: __DefaultFormatArray, symObjAddr: 0x6C0, symBinAddr: 0xA7958, symSize: 0x78 }
-  - { offsetInCU: 0x180, offset: 0x8D2DA, size: 0x8, addend: 0x0, symName: __DefaultFormatArray.array, symObjAddr: 0x5388, symBinAddr: 0x1BA090, symSize: 0x0 }
-  - { offsetInCU: 0x196, offset: 0x8D2F0, size: 0x8, addend: 0x0, symName: __DefaultFormatArray.onceToken, symObjAddr: 0x5390, symBinAddr: 0x1BA098, symSize: 0x0 }
+  - { offsetInCU: 0x180, offset: 0x8D2DA, size: 0x8, addend: 0x0, symName: __DefaultFormatArray.array, symObjAddr: 0x5390, symBinAddr: 0x1BA090, symSize: 0x0 }
+  - { offsetInCU: 0x196, offset: 0x8D2F0, size: 0x8, addend: 0x0, symName: __DefaultFormatArray.onceToken, symObjAddr: 0x5398, symBinAddr: 0x1BA098, symSize: 0x0 }
   - { offsetInCU: 0x1EA, offset: 0x8D344, size: 0x8, addend: 0x0, symName: __LevelDescriptions, symObjAddr: 0x1840, symBinAddr: 0x178E60, symSize: 0x0 }
   - { offsetInCU: 0x20F, offset: 0x8D369, size: 0x8, addend: 0x0, symName: __CustomMessagePrinterQueue, symObjAddr: 0x9C8, symBinAddr: 0xA7C60, symSize: 0x78 }
-  - { offsetInCU: 0x235, offset: 0x8D38F, size: 0x8, addend: 0x0, symName: __CustomMessagePrinterQueue.onceToken, symObjAddr: 0x5398, symBinAddr: 0x1BA0A0, symSize: 0x0 }
-  - { offsetInCU: 0x24B, offset: 0x8D3A5, size: 0x8, addend: 0x0, symName: __CustomMessagePrinterQueue.queue, symObjAddr: 0x53A0, symBinAddr: 0x1BA0A8, symSize: 0x0 }
+  - { offsetInCU: 0x235, offset: 0x8D38F, size: 0x8, addend: 0x0, symName: __CustomMessagePrinterQueue.onceToken, symObjAddr: 0x53A0, symBinAddr: 0x1BA0A0, symSize: 0x0 }
+  - { offsetInCU: 0x24B, offset: 0x8D3A5, size: 0x8, addend: 0x0, symName: __CustomMessagePrinterQueue.queue, symObjAddr: 0x53A8, symBinAddr: 0x1BA0A8, symSize: 0x0 }
   - { offsetInCU: 0x27E, offset: 0x8D3D8, size: 0x8, addend: 0x0, symName: __FormatTokenRegex, symObjAddr: 0xED4, symBinAddr: 0xA80D0, symSize: 0x78 }
-  - { offsetInCU: 0x2A4, offset: 0x8D3FE, size: 0x8, addend: 0x0, symName: __FormatTokenRegex.regex, symObjAddr: 0x53A8, symBinAddr: 0x1BA0B0, symSize: 0x0 }
-  - { offsetInCU: 0x2BA, offset: 0x8D414, size: 0x8, addend: 0x0, symName: __FormatTokenRegex.onceToken, symObjAddr: 0x53B0, symBinAddr: 0x1BA0B8, symSize: 0x0 }
+  - { offsetInCU: 0x2A4, offset: 0x8D3FE, size: 0x8, addend: 0x0, symName: __FormatTokenRegex.regex, symObjAddr: 0x53B0, symBinAddr: 0x1BA0B0, symSize: 0x0 }
+  - { offsetInCU: 0x2BA, offset: 0x8D414, size: 0x8, addend: 0x0, symName: __FormatTokenRegex.onceToken, symObjAddr: 0x53B8, symBinAddr: 0x1BA0B8, symSize: 0x0 }
   - { offsetInCU: 0x355, offset: 0x8D4AF, size: 0x8, addend: 0x0, symName: _PTLog, symObjAddr: 0x0, symBinAddr: 0xA7298, symSize: 0x6C0 }
   - { offsetInCU: 0x52C, offset: 0x8D686, size: 0x8, addend: 0x0, symName: __CurrentDispatchQueueLabel, symObjAddr: 0x738, symBinAddr: 0xA79D0, symSize: 0x6C }
   - { offsetInCU: 0x556, offset: 0x8D6B0, size: 0x8, addend: 0x0, symName: __CurrentThreadName, symObjAddr: 0x7A4, symBinAddr: 0xA7A3C, symSize: 0x224 }
@@ -2917,12 +2917,12 @@ relocations:
   - { offsetInCU: 0x4FF, offset: 0x9060F, size: 0x8, addend: 0x0, symName: '-[PTDiffusionClientQueueEvent .cxx_destruct]', symObjAddr: 0x1144, symBinAddr: 0xAD1A0, symSize: 0x58 }
   - { offsetInCU: 0x27, offset: 0x90724, size: 0x8, addend: 0x0, symName: '+[PTDiffusionSession sessionSet]', symObjAddr: 0x0, symBinAddr: 0xAD1F8, symSize: 0x80 }
   - { offsetInCU: 0x35, offset: 0x90732, size: 0x8, addend: 0x0, symName: '+[PTDiffusionSession sessionSet]', symObjAddr: 0x0, symBinAddr: 0xAD1F8, symSize: 0x80 }
-  - { offsetInCU: 0x5F, offset: 0x9075C, size: 0x8, addend: 0x0, symName: _sessionSet.set, symObjAddr: 0x1DC40, symBinAddr: 0x1BA0C0, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0x90772, size: 0x8, addend: 0x0, symName: _sessionSet.onceToken, symObjAddr: 0x1DC48, symBinAddr: 0x1BA0C8, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x9075C, size: 0x8, addend: 0x0, symName: _sessionSet.set, symObjAddr: 0x1DC48, symBinAddr: 0x1BA0C0, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x90772, size: 0x8, addend: 0x0, symName: _sessionSet.onceToken, symObjAddr: 0x1DC50, symBinAddr: 0x1BA0C8, symSize: 0x0 }
   - { offsetInCU: 0xEC, offset: 0x907E9, size: 0x8, addend: 0x0, symName: __NextHash, symObjAddr: 0x1B90, symBinAddr: 0xAEB60, symSize: 0xAC }
-  - { offsetInCU: 0x114, offset: 0x90811, size: 0x8, addend: 0x0, symName: __NextHash.nextHash, symObjAddr: 0x1DC50, symBinAddr: 0x1BA0D0, symSize: 0x0 }
-  - { offsetInCU: 0x12B, offset: 0x90828, size: 0x8, addend: 0x0, symName: __NextHash.lock, symObjAddr: 0x1DC58, symBinAddr: 0x1BA0D8, symSize: 0x0 }
-  - { offsetInCU: 0x142, offset: 0x9083F, size: 0x8, addend: 0x0, symName: __NextHash.onceToken, symObjAddr: 0x1DC60, symBinAddr: 0x1BA0E0, symSize: 0x0 }
+  - { offsetInCU: 0x114, offset: 0x90811, size: 0x8, addend: 0x0, symName: __NextHash.nextHash, symObjAddr: 0x1DC58, symBinAddr: 0x1BA0D0, symSize: 0x0 }
+  - { offsetInCU: 0x12B, offset: 0x90828, size: 0x8, addend: 0x0, symName: __NextHash.lock, symObjAddr: 0x1DC60, symBinAddr: 0x1BA0D8, symSize: 0x0 }
+  - { offsetInCU: 0x142, offset: 0x9083F, size: 0x8, addend: 0x0, symName: __NextHash.onceToken, symObjAddr: 0x1DC68, symBinAddr: 0x1BA0E0, symSize: 0x0 }
   - { offsetInCU: 0xB80, offset: 0x9127D, size: 0x8, addend: 0x0, symName: '___32+[PTDiffusionSession sessionSet]_block_invoke', symObjAddr: 0x80, symBinAddr: 0xAD278, symSize: 0x44 }
   - { offsetInCU: 0xBAA, offset: 0x912A7, size: 0x8, addend: 0x0, symName: '+[PTDiffusionSession openWithURL:configuration:completionHandler:]', symObjAddr: 0xC4, symBinAddr: 0xAD2BC, symSize: 0x2C4 }
   - { offsetInCU: 0xC2C, offset: 0x91329, size: 0x8, addend: 0x0, symName: __DispatchNotifier, symObjAddr: 0x388, symBinAddr: 0xAD580, symSize: 0x48 }
@@ -3040,8 +3040,8 @@ relocations:
   - { offsetInCU: 0x31AC, offset: 0x938A9, size: 0x8, addend: 0x0, symName: ____NextHash_block_invoke, symObjAddr: 0x7BD8, symBinAddr: 0xB491C, symSize: 0x4C }
   - { offsetInCU: 0x27, offset: 0x94848, size: 0x8, addend: 0x0, symName: '-[PTJSONPointer initWithSegments:]', symObjAddr: 0x0, symBinAddr: 0xB4968, symSize: 0x184 }
   - { offsetInCU: 0x35, offset: 0x94856, size: 0x8, addend: 0x0, symName: '+[PTJSONPointer pointerToRoot]', symObjAddr: 0x2B0, symBinAddr: 0xB4C18, symSize: 0x80 }
-  - { offsetInCU: 0x5F, offset: 0x94880, size: 0x8, addend: 0x0, symName: _pointerToRoot.onceToken, symObjAddr: 0x44C8, symBinAddr: 0x1BA0E8, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0x94896, size: 0x8, addend: 0x0, symName: _pointerToRoot.root, symObjAddr: 0x44D0, symBinAddr: 0x1BA0F0, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x94880, size: 0x8, addend: 0x0, symName: _pointerToRoot.onceToken, symObjAddr: 0x44D0, symBinAddr: 0x1BA0E8, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x94896, size: 0x8, addend: 0x0, symName: _pointerToRoot.root, symObjAddr: 0x44D8, symBinAddr: 0x1BA0F0, symSize: 0x0 }
   - { offsetInCU: 0x118, offset: 0x94939, size: 0x8, addend: 0x0, symName: '-[PTJSONPointer initWithSegments:]', symObjAddr: 0x0, symBinAddr: 0xB4968, symSize: 0x184 }
   - { offsetInCU: 0x160, offset: 0x94981, size: 0x8, addend: 0x0, symName: '-[PTJSONPointer pointerByAppendingSegment:]', symObjAddr: 0x184, symBinAddr: 0xB4AEC, symSize: 0x12C }
   - { offsetInCU: 0x1E3, offset: 0x94A04, size: 0x8, addend: 0x0, symName: '___30+[PTJSONPointer pointerToRoot]_block_invoke', symObjAddr: 0x330, symBinAddr: 0xB4C98, symSize: 0x58 }
@@ -3073,8 +3073,8 @@ relocations:
   - { offsetInCU: 0x41, offset: 0x957D7, size: 0x8, addend: 0x0, symName: _PTDiffusionVersion_Changelist_internal, symObjAddr: 0x1298, symBinAddr: 0x1790F8, symSize: 0x0 }
   - { offsetInCU: 0x61, offset: 0x957F7, size: 0x8, addend: 0x0, symName: _PTDiffusionVersion_6_11_2, symObjAddr: 0x12A0, symBinAddr: 0x179100, symSize: 0x0 }
   - { offsetInCU: 0x6B, offset: 0x95801, size: 0x8, addend: 0x0, symName: '+[PTDiffusionVersion versionOfClientLibrary]', symObjAddr: 0x264, symBinAddr: 0xB6380, symSize: 0xB4 }
-  - { offsetInCU: 0x95, offset: 0x9582B, size: 0x8, addend: 0x0, symName: _versionOfClientLibrary.diffusionVersion, symObjAddr: 0x4FD0, symBinAddr: 0x1BA0F8, symSize: 0x0 }
-  - { offsetInCU: 0xAB, offset: 0x95841, size: 0x8, addend: 0x0, symName: _versionOfClientLibrary.onceToken, symObjAddr: 0x4FD8, symBinAddr: 0x1BA100, symSize: 0x0 }
+  - { offsetInCU: 0x95, offset: 0x9582B, size: 0x8, addend: 0x0, symName: _versionOfClientLibrary.diffusionVersion, symObjAddr: 0x4FD8, symBinAddr: 0x1BA0F8, symSize: 0x0 }
+  - { offsetInCU: 0xAB, offset: 0x95841, size: 0x8, addend: 0x0, symName: _versionOfClientLibrary.onceToken, symObjAddr: 0x4FE0, symBinAddr: 0x1BA100, symSize: 0x0 }
   - { offsetInCU: 0x1A6, offset: 0x9593C, size: 0x8, addend: 0x0, symName: '___44+[PTDiffusionVersion versionOfClientLibrary]_block_invoke', symObjAddr: 0x318, symBinAddr: 0xB6434, symSize: 0x2C0 }
   - { offsetInCU: 0x32A, offset: 0x95AC0, size: 0x8, addend: 0x0, symName: '-[PTDiffusionVersion initWithMajor:minor:patch:manifest:]', symObjAddr: 0x0, symBinAddr: 0xB611C, symSize: 0x264 }
   - { offsetInCU: 0x3D3, offset: 0x95B69, size: 0x8, addend: 0x0, symName: '-[PTDiffusionVersion copyWithZone:]', symObjAddr: 0x5D8, symBinAddr: 0xB66F4, symSize: 0x1C }
@@ -3106,11 +3106,11 @@ relocations:
   - { offsetInCU: 0x364, offset: 0x96661, size: 0x8, addend: 0x0, symName: '+[PTDiffusionTopicMetricCollectorBuilder new]', symObjAddr: 0x834, symBinAddr: 0xB7A84, symSize: 0x34 }
   - { offsetInCU: 0x27, offset: 0x967A9, size: 0x8, addend: 0x0, symName: '-[PTDiffusionFetchRequest initWithContext:]', symObjAddr: 0x0, symBinAddr: 0xB7AB8, symSize: 0x128 }
   - { offsetInCU: 0x35, offset: 0x967B7, size: 0x8, addend: 0x0, symName: '+[PTDiffusionFetchRequest genericTimeSeriesEventDataType]', symObjAddr: 0x4E8, symBinAddr: 0xB7FA0, symSize: 0x80 }
-  - { offsetInCU: 0x5F, offset: 0x967E1, size: 0x8, addend: 0x0, symName: _genericTimeSeriesEventDataType.onceToken, symObjAddr: 0xDC30, symBinAddr: 0x1BA108, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0x967F7, size: 0x8, addend: 0x0, symName: _genericTimeSeriesEventDataType.dataType, symObjAddr: 0xDC38, symBinAddr: 0x1BA110, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0x967E1, size: 0x8, addend: 0x0, symName: _genericTimeSeriesEventDataType.onceToken, symObjAddr: 0xDC38, symBinAddr: 0x1BA108, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0x967F7, size: 0x8, addend: 0x0, symName: _genericTimeSeriesEventDataType.dataType, symObjAddr: 0xDC40, symBinAddr: 0x1BA110, symSize: 0x0 }
   - { offsetInCU: 0x100, offset: 0x96882, size: 0x8, addend: 0x0, symName: '+[PTDiffusionFetchRequest allTypes]', symObjAddr: 0x15C8, symBinAddr: 0xB9080, symSize: 0x80 }
-  - { offsetInCU: 0x12C, offset: 0x968AE, size: 0x8, addend: 0x0, symName: _allTypes.onceToken, symObjAddr: 0xDC40, symBinAddr: 0x1BA118, symSize: 0x0 }
-  - { offsetInCU: 0x143, offset: 0x968C5, size: 0x8, addend: 0x0, symName: _allTypes.set, symObjAddr: 0xDC48, symBinAddr: 0x1BA120, symSize: 0x0 }
+  - { offsetInCU: 0x12C, offset: 0x968AE, size: 0x8, addend: 0x0, symName: _allTypes.onceToken, symObjAddr: 0xDC48, symBinAddr: 0x1BA118, symSize: 0x0 }
+  - { offsetInCU: 0x143, offset: 0x968C5, size: 0x8, addend: 0x0, symName: _allTypes.set, symObjAddr: 0xDC50, symBinAddr: 0x1BA120, symSize: 0x0 }
   - { offsetInCU: 0x6A8, offset: 0x96E2A, size: 0x8, addend: 0x0, symName: '-[PTDiffusionFetchRequest initWithContext:]', symObjAddr: 0x0, symBinAddr: 0xB7AB8, symSize: 0x128 }
   - { offsetInCU: 0x6F0, offset: 0x96E72, size: 0x8, addend: 0x0, symName: '-[PTDiffusionFetchRequest initWithContext:range:topicTypes:withProperties:limit:maximumResultSize:deepBranchDepth:deepBranchLimit:withUnpublishedDelayedTopics:]', symObjAddr: 0x128, symBinAddr: 0xB7BE0, symSize: 0x3C0 }
   - { offsetInCU: 0x803, offset: 0x96F85, size: 0x8, addend: 0x0, symName: '___57+[PTDiffusionFetchRequest genericTimeSeriesEventDataType]_block_invoke', symObjAddr: 0x568, symBinAddr: 0xB8020, symSize: 0x64 }
@@ -3449,8 +3449,8 @@ relocations:
   - { offsetInCU: 0x27, offset: 0xA40B9, size: 0x8, addend: 0x0, symName: '-[PTDiffusionSessionConfiguration setDefaults]', symObjAddr: 0x0, symBinAddr: 0xD255C, symSize: 0x114 }
   - { offsetInCU: 0x41, offset: 0xA40D3, size: 0x8, addend: 0x0, symName: _PTDiffusionSessionDefaultReconnectionTimeout, symObjAddr: 0x27B0, symBinAddr: 0x145D58, symSize: 0x0 }
   - { offsetInCU: 0x7B, offset: 0xA410D, size: 0x8, addend: 0x0, symName: __DefaultReconnectionStrategy, symObjAddr: 0x1C8C, symBinAddr: 0xD41E8, symSize: 0x78 }
-  - { offsetInCU: 0xA1, offset: 0xA4133, size: 0x8, addend: 0x0, symName: __DefaultReconnectionStrategy.strategy, symObjAddr: 0xA8B0, symBinAddr: 0x1BA128, symSize: 0x0 }
-  - { offsetInCU: 0xB7, offset: 0xA4149, size: 0x8, addend: 0x0, symName: __DefaultReconnectionStrategy.onceToken, symObjAddr: 0xA8B8, symBinAddr: 0x1BA130, symSize: 0x0 }
+  - { offsetInCU: 0xA1, offset: 0xA4133, size: 0x8, addend: 0x0, symName: __DefaultReconnectionStrategy.strategy, symObjAddr: 0xA8B8, symBinAddr: 0x1BA128, symSize: 0x0 }
+  - { offsetInCU: 0xB7, offset: 0xA4149, size: 0x8, addend: 0x0, symName: __DefaultReconnectionStrategy.onceToken, symObjAddr: 0xA8C0, symBinAddr: 0x1BA130, symSize: 0x0 }
   - { offsetInCU: 0x4A3, offset: 0xA4535, size: 0x8, addend: 0x0, symName: '-[PTDiffusionSessionConfiguration setDefaults]', symObjAddr: 0x0, symBinAddr: 0xD255C, symSize: 0x114 }
   - { offsetInCU: 0x4D8, offset: 0xA456A, size: 0x8, addend: 0x0, symName: '-[PTDiffusionSessionConfiguration init]', symObjAddr: 0x114, symBinAddr: 0xD2670, symSize: 0xBC }
   - { offsetInCU: 0x511, offset: 0xA45A3, size: 0x8, addend: 0x0, symName: '-[PTDiffusionSessionConfiguration initWithPrincipal:credentials:]', symObjAddr: 0x1D0, symBinAddr: 0xD272C, symSize: 0x140 }
@@ -3693,8 +3693,8 @@ relocations:
   - { offsetInCU: 0x236, offset: 0xAD0BB, size: 0x8, addend: 0x0, symName: '-[PTDiffusionNumberRequestStream .cxx_destruct]', symObjAddr: 0x620, symBinAddr: 0xE4B2C, symSize: 0x50 }
   - { offsetInCU: 0x27, offset: 0xAD16A, size: 0x8, addend: 0x0, symName: '-[PTDiffusionPrimitiveDataType typeName]', symObjAddr: 0x0, symBinAddr: 0xE4B7C, symSize: 0x90 }
   - { offsetInCU: 0x35, offset: 0xAD178, size: 0x8, addend: 0x0, symName: '+[PTDiffusionPrimitiveDataType nullEncoding]', symObjAddr: 0x378, symBinAddr: 0xE4EF4, symSize: 0x80 }
-  - { offsetInCU: 0x5F, offset: 0xAD1A2, size: 0x8, addend: 0x0, symName: _nullEncoding.onceToken, symObjAddr: 0x63C0, symBinAddr: 0x1BA138, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0xAD1B8, size: 0x8, addend: 0x0, symName: _nullEncoding.encoding, symObjAddr: 0x63C8, symBinAddr: 0x1BA140, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0xAD1A2, size: 0x8, addend: 0x0, symName: _nullEncoding.onceToken, symObjAddr: 0x63C8, symBinAddr: 0x1BA138, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0xAD1B8, size: 0x8, addend: 0x0, symName: _nullEncoding.encoding, symObjAddr: 0x63D0, symBinAddr: 0x1BA140, symSize: 0x0 }
   - { offsetInCU: 0x17C, offset: 0xAD2BF, size: 0x8, addend: 0x0, symName: '-[PTDiffusionPrimitiveDataType typeName]', symObjAddr: 0x0, symBinAddr: 0xE4B7C, symSize: 0x90 }
   - { offsetInCU: 0x1B5, offset: 0xAD2F8, size: 0x8, addend: 0x0, symName: '-[PTDiffusionPrimitiveDataType deltaTypeWithName:]', symObjAddr: 0x90, symBinAddr: 0xE4C0C, symSize: 0xD8 }
   - { offsetInCU: 0x1FD, offset: 0xAD340, size: 0x8, addend: 0x0, symName: '-[PTDiffusionPrimitiveDataType canBeDecodedByDataType:]', symObjAddr: 0x168, symBinAddr: 0xE4CE4, symSize: 0x180 }
@@ -3808,8 +3808,8 @@ relocations:
   - { offsetInCU: 0x24E, offset: 0xB1568, size: 0x8, addend: 0x0, symName: '-[PTDiffusionControlGroup .cxx_destruct]', symObjAddr: 0x574, symBinAddr: 0xEC3AC, symSize: 0x30 }
   - { offsetInCU: 0x27, offset: 0xB166D, size: 0x8, addend: 0x0, symName: '+[PTDiffusionRecordV2DataType recordV2DataType]', symObjAddr: 0x0, symBinAddr: 0xEC3DC, symSize: 0x80 }
   - { offsetInCU: 0x35, offset: 0xB167B, size: 0x8, addend: 0x0, symName: '+[PTDiffusionRecordV2DataType recordV2DataType]', symObjAddr: 0x0, symBinAddr: 0xEC3DC, symSize: 0x80 }
-  - { offsetInCU: 0x5F, offset: 0xB16A5, size: 0x8, addend: 0x0, symName: _recordV2DataType.onceToken, symObjAddr: 0x37C0, symBinAddr: 0x1BA148, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0xB16BB, size: 0x8, addend: 0x0, symName: _recordV2DataType.singleton, symObjAddr: 0x37C8, symBinAddr: 0x1BA150, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0xB16A5, size: 0x8, addend: 0x0, symName: _recordV2DataType.onceToken, symObjAddr: 0x37C8, symBinAddr: 0x1BA148, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0xB16BB, size: 0x8, addend: 0x0, symName: _recordV2DataType.singleton, symObjAddr: 0x37D0, symBinAddr: 0x1BA150, symSize: 0x0 }
   - { offsetInCU: 0x1F3, offset: 0xB1839, size: 0x8, addend: 0x0, symName: '___47+[PTDiffusionRecordV2DataType recordV2DataType]_block_invoke', symObjAddr: 0x80, symBinAddr: 0xEC45C, symSize: 0x4C }
   - { offsetInCU: 0x21D, offset: 0xB1863, size: 0x8, addend: 0x0, symName: '-[PTDiffusionRecordV2DataType initAsSingleton]', symObjAddr: 0xCC, symBinAddr: 0xEC4A8, symSize: 0x8C }
   - { offsetInCU: 0x256, offset: 0xB189C, size: 0x8, addend: 0x0, symName: '-[PTDiffusionRecordV2DataType typeName]', symObjAddr: 0x158, symBinAddr: 0xEC534, symSize: 0x1C }
@@ -3822,8 +3822,8 @@ relocations:
   - { offsetInCU: 0x27, offset: 0xB1C92, size: 0x8, addend: 0x0, symName: '-[PTDiffusionErrorBuilder init]', symObjAddr: 0x0, symBinAddr: 0xECB0C, symSize: 0x168 }
   - { offsetInCU: 0x41, offset: 0xB1CAC, size: 0x8, addend: 0x0, symName: _PTDiffusionUnderlyingErrorsKey, symObjAddr: 0xCF0, symBinAddr: 0x179470, symSize: 0x0 }
   - { offsetInCU: 0x55, offset: 0xB1CC0, size: 0x8, addend: 0x0, symName: '+[PTDiffusionErrorBuilder sharedBuilder]', symObjAddr: 0x1F4, symBinAddr: 0xECD00, symSize: 0xB4 }
-  - { offsetInCU: 0x7F, offset: 0xB1CEA, size: 0x8, addend: 0x0, symName: _sharedBuilder.pred, symObjAddr: 0x3760, symBinAddr: 0x1BA158, symSize: 0x0 }
-  - { offsetInCU: 0x95, offset: 0xB1D00, size: 0x8, addend: 0x0, symName: _sharedBuilder._sharedObject, symObjAddr: 0x3768, symBinAddr: 0x1BA160, symSize: 0x0 }
+  - { offsetInCU: 0x7F, offset: 0xB1CEA, size: 0x8, addend: 0x0, symName: _sharedBuilder.pred, symObjAddr: 0x3768, symBinAddr: 0x1BA158, symSize: 0x0 }
+  - { offsetInCU: 0x95, offset: 0xB1D00, size: 0x8, addend: 0x0, symName: _sharedBuilder._sharedObject, symObjAddr: 0x3770, symBinAddr: 0x1BA160, symSize: 0x0 }
   - { offsetInCU: 0x14C, offset: 0xB1DB7, size: 0x8, addend: 0x0, symName: '-[PTDiffusionErrorBuilder init]', symObjAddr: 0x0, symBinAddr: 0xECB0C, symSize: 0x168 }
   - { offsetInCU: 0x1A3, offset: 0xB1E0E, size: 0x8, addend: 0x0, symName: '-[PTDiffusionErrorBuilder detailsForError:]', symObjAddr: 0x168, symBinAddr: 0xECC74, symSize: 0x8C }
   - { offsetInCU: 0x226, offset: 0xB1E91, size: 0x8, addend: 0x0, symName: '___40+[PTDiffusionErrorBuilder sharedBuilder]_block_invoke', symObjAddr: 0x2A8, symBinAddr: 0xECDB4, symSize: 0x4C }
@@ -3880,8 +3880,8 @@ relocations:
   - { offsetInCU: 0x26C, offset: 0xB3A1E, size: 0x8, addend: 0x0, symName: '-[PTDiffusionLoggingDestinationConfiguration .cxx_destruct]', symObjAddr: 0x30C, symBinAddr: 0xF110C, symSize: 0x30 }
   - { offsetInCU: 0x27, offset: 0xB3ADF, size: 0x8, addend: 0x0, symName: '-[PTDiffusionTransportClosureNanny initWithTransport:]', symObjAddr: 0x0, symBinAddr: 0xF113C, symSize: 0x184 }
   - { offsetInCU: 0x43, offset: 0xB3AFB, size: 0x8, addend: 0x0, symName: '+[PTDiffusionTransportClosureNanny nannies]', symObjAddr: 0x2E0, symBinAddr: 0xF141C, symSize: 0x80 }
-  - { offsetInCU: 0x6D, offset: 0xB3B25, size: 0x8, addend: 0x0, symName: _nannies.set, symObjAddr: 0x4320, symBinAddr: 0x1BA168, symSize: 0x0 }
-  - { offsetInCU: 0x83, offset: 0xB3B3B, size: 0x8, addend: 0x0, symName: _nannies.onceToken, symObjAddr: 0x4328, symBinAddr: 0x1BA170, symSize: 0x0 }
+  - { offsetInCU: 0x6D, offset: 0xB3B25, size: 0x8, addend: 0x0, symName: _nannies.set, symObjAddr: 0x4328, symBinAddr: 0x1BA168, symSize: 0x0 }
+  - { offsetInCU: 0x83, offset: 0xB3B3B, size: 0x8, addend: 0x0, symName: _nannies.onceToken, symObjAddr: 0x4330, symBinAddr: 0x1BA170, symSize: 0x0 }
   - { offsetInCU: 0x175, offset: 0xB3C2D, size: 0x8, addend: 0x0, symName: '-[PTDiffusionTransportClosureNanny initWithTransport:]', symObjAddr: 0x0, symBinAddr: 0xF113C, symSize: 0x184 }
   - { offsetInCU: 0x1BD, offset: 0xB3C75, size: 0x8, addend: 0x0, symName: '+[PTDiffusionTransportClosureNanny awaitClosureOfTransport:]', symObjAddr: 0x184, symBinAddr: 0xF12C0, symSize: 0x15C }
   - { offsetInCU: 0x244, offset: 0xB3CFC, size: 0x8, addend: 0x0, symName: '___43+[PTDiffusionTransportClosureNanny nannies]_block_invoke', symObjAddr: 0x360, symBinAddr: 0xF149C, symSize: 0x44 }
@@ -3967,47 +3967,47 @@ relocations:
   - { offsetInCU: 0x247, offset: 0xB7065, size: 0x8, addend: 0x0, symName: '-[PTDiffusionNoValuesFetchResult .cxx_destruct]', symObjAddr: 0x608, symBinAddr: 0xF6954, symSize: 0x38 }
   - { offsetInCU: 0x27, offset: 0xB72FA, size: 0x8, addend: 0x0, symName: '-[PTDiffusionSessionState initWithInternalState:description:error:]', symObjAddr: 0x0, symBinAddr: 0xF698C, symSize: 0x140 }
   - { offsetInCU: 0x35, offset: 0xB7308, size: 0x8, addend: 0x0, symName: '+[PTDiffusionSessionState internalStateForInitialised]', symObjAddr: 0x84C, symBinAddr: 0xF71D8, symSize: 0xB4 }
-  - { offsetInCU: 0x5F, offset: 0xB7332, size: 0x8, addend: 0x0, symName: _internalStateForInitialised.internalState, symObjAddr: 0x7CA0, symBinAddr: 0x1BA178, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0xB7348, size: 0x8, addend: 0x0, symName: _internalStateForInitialised.onceToken, symObjAddr: 0x7CA8, symBinAddr: 0x1BA180, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0xB7332, size: 0x8, addend: 0x0, symName: _internalStateForInitialised.internalState, symObjAddr: 0x7CA8, symBinAddr: 0x1BA178, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0xB7348, size: 0x8, addend: 0x0, symName: _internalStateForInitialised.onceToken, symObjAddr: 0x7CB0, symBinAddr: 0x1BA180, symSize: 0x0 }
   - { offsetInCU: 0x231, offset: 0xB7504, size: 0x8, addend: 0x0, symName: '+[PTDiffusionSessionState internalStateForConnecting]', symObjAddr: 0x95C, symBinAddr: 0xF72E8, symSize: 0xB4 }
-  - { offsetInCU: 0x25B, offset: 0xB752E, size: 0x8, addend: 0x0, symName: _internalStateForConnecting.internalState, symObjAddr: 0x7CB0, symBinAddr: 0x1BA188, symSize: 0x0 }
-  - { offsetInCU: 0x271, offset: 0xB7544, size: 0x8, addend: 0x0, symName: _internalStateForConnecting.onceToken, symObjAddr: 0x7CB8, symBinAddr: 0x1BA190, symSize: 0x0 }
+  - { offsetInCU: 0x25B, offset: 0xB752E, size: 0x8, addend: 0x0, symName: _internalStateForConnecting.internalState, symObjAddr: 0x7CB8, symBinAddr: 0x1BA188, symSize: 0x0 }
+  - { offsetInCU: 0x271, offset: 0xB7544, size: 0x8, addend: 0x0, symName: _internalStateForConnecting.onceToken, symObjAddr: 0x7CC0, symBinAddr: 0x1BA190, symSize: 0x0 }
   - { offsetInCU: 0x2BE, offset: 0xB7591, size: 0x8, addend: 0x0, symName: '+[PTDiffusionSessionState internalStateForConnectedActive]', symObjAddr: 0xA6C, symBinAddr: 0xF73F8, symSize: 0xB4 }
-  - { offsetInCU: 0x2E8, offset: 0xB75BB, size: 0x8, addend: 0x0, symName: _internalStateForConnectedActive.internalState, symObjAddr: 0x7CC0, symBinAddr: 0x1BA198, symSize: 0x0 }
-  - { offsetInCU: 0x2FE, offset: 0xB75D1, size: 0x8, addend: 0x0, symName: _internalStateForConnectedActive.onceToken, symObjAddr: 0x7CC8, symBinAddr: 0x1BA1A0, symSize: 0x0 }
+  - { offsetInCU: 0x2E8, offset: 0xB75BB, size: 0x8, addend: 0x0, symName: _internalStateForConnectedActive.internalState, symObjAddr: 0x7CC8, symBinAddr: 0x1BA198, symSize: 0x0 }
+  - { offsetInCU: 0x2FE, offset: 0xB75D1, size: 0x8, addend: 0x0, symName: _internalStateForConnectedActive.onceToken, symObjAddr: 0x7CD0, symBinAddr: 0x1BA1A0, symSize: 0x0 }
   - { offsetInCU: 0x34B, offset: 0xB761E, size: 0x8, addend: 0x0, symName: '+[PTDiffusionSessionState internalStateForAwaitingReconnectionStrategy]', symObjAddr: 0xB7C, symBinAddr: 0xF7508, symSize: 0xB4 }
-  - { offsetInCU: 0x375, offset: 0xB7648, size: 0x8, addend: 0x0, symName: _internalStateForAwaitingReconnectionStrategy.internalState, symObjAddr: 0x7CD0, symBinAddr: 0x1BA1A8, symSize: 0x0 }
-  - { offsetInCU: 0x38B, offset: 0xB765E, size: 0x8, addend: 0x0, symName: _internalStateForAwaitingReconnectionStrategy.onceToken, symObjAddr: 0x7CD8, symBinAddr: 0x1BA1B0, symSize: 0x0 }
+  - { offsetInCU: 0x375, offset: 0xB7648, size: 0x8, addend: 0x0, symName: _internalStateForAwaitingReconnectionStrategy.internalState, symObjAddr: 0x7CD8, symBinAddr: 0x1BA1A8, symSize: 0x0 }
+  - { offsetInCU: 0x38B, offset: 0xB765E, size: 0x8, addend: 0x0, symName: _internalStateForAwaitingReconnectionStrategy.onceToken, symObjAddr: 0x7CE0, symBinAddr: 0x1BA1B0, symSize: 0x0 }
   - { offsetInCU: 0x3D8, offset: 0xB76AB, size: 0x8, addend: 0x0, symName: '+[PTDiffusionSessionState internalStateForReconnecting]', symObjAddr: 0xC8C, symBinAddr: 0xF7618, symSize: 0xB4 }
-  - { offsetInCU: 0x402, offset: 0xB76D5, size: 0x8, addend: 0x0, symName: _internalStateForReconnecting.internalState, symObjAddr: 0x7CE0, symBinAddr: 0x1BA1B8, symSize: 0x0 }
-  - { offsetInCU: 0x418, offset: 0xB76EB, size: 0x8, addend: 0x0, symName: _internalStateForReconnecting.onceToken, symObjAddr: 0x7CE8, symBinAddr: 0x1BA1C0, symSize: 0x0 }
+  - { offsetInCU: 0x402, offset: 0xB76D5, size: 0x8, addend: 0x0, symName: _internalStateForReconnecting.internalState, symObjAddr: 0x7CE8, symBinAddr: 0x1BA1B8, symSize: 0x0 }
+  - { offsetInCU: 0x418, offset: 0xB76EB, size: 0x8, addend: 0x0, symName: _internalStateForReconnecting.onceToken, symObjAddr: 0x7CF0, symBinAddr: 0x1BA1C0, symSize: 0x0 }
   - { offsetInCU: 0x465, offset: 0xB7738, size: 0x8, addend: 0x0, symName: '+[PTDiffusionSessionState internalStateForFailing]', symObjAddr: 0xD9C, symBinAddr: 0xF7728, symSize: 0xB4 }
-  - { offsetInCU: 0x48F, offset: 0xB7762, size: 0x8, addend: 0x0, symName: _internalStateForFailing.internalState, symObjAddr: 0x7CF0, symBinAddr: 0x1BA1C8, symSize: 0x0 }
-  - { offsetInCU: 0x4A5, offset: 0xB7778, size: 0x8, addend: 0x0, symName: _internalStateForFailing.onceToken, symObjAddr: 0x7CF8, symBinAddr: 0x1BA1D0, symSize: 0x0 }
+  - { offsetInCU: 0x48F, offset: 0xB7762, size: 0x8, addend: 0x0, symName: _internalStateForFailing.internalState, symObjAddr: 0x7CF8, symBinAddr: 0x1BA1C8, symSize: 0x0 }
+  - { offsetInCU: 0x4A5, offset: 0xB7778, size: 0x8, addend: 0x0, symName: _internalStateForFailing.onceToken, symObjAddr: 0x7D00, symBinAddr: 0x1BA1D0, symSize: 0x0 }
   - { offsetInCU: 0x4F2, offset: 0xB77C5, size: 0x8, addend: 0x0, symName: '+[PTDiffusionSessionState internalStateForClosing]', symObjAddr: 0xEAC, symBinAddr: 0xF7838, symSize: 0xB4 }
-  - { offsetInCU: 0x51C, offset: 0xB77EF, size: 0x8, addend: 0x0, symName: _internalStateForClosing.internalState, symObjAddr: 0x7D00, symBinAddr: 0x1BA1D8, symSize: 0x0 }
-  - { offsetInCU: 0x532, offset: 0xB7805, size: 0x8, addend: 0x0, symName: _internalStateForClosing.onceToken, symObjAddr: 0x7D08, symBinAddr: 0x1BA1E0, symSize: 0x0 }
+  - { offsetInCU: 0x51C, offset: 0xB77EF, size: 0x8, addend: 0x0, symName: _internalStateForClosing.internalState, symObjAddr: 0x7D08, symBinAddr: 0x1BA1D8, symSize: 0x0 }
+  - { offsetInCU: 0x532, offset: 0xB7805, size: 0x8, addend: 0x0, symName: _internalStateForClosing.onceToken, symObjAddr: 0x7D10, symBinAddr: 0x1BA1E0, symSize: 0x0 }
   - { offsetInCU: 0x57F, offset: 0xB7852, size: 0x8, addend: 0x0, symName: '+[PTDiffusionSessionState internalStateForClosed]', symObjAddr: 0xFBC, symBinAddr: 0xF7948, symSize: 0xB4 }
-  - { offsetInCU: 0x5A9, offset: 0xB787C, size: 0x8, addend: 0x0, symName: _internalStateForClosed.internalState, symObjAddr: 0x7D10, symBinAddr: 0x1BA1E8, symSize: 0x0 }
-  - { offsetInCU: 0x5BF, offset: 0xB7892, size: 0x8, addend: 0x0, symName: _internalStateForClosed.onceToken, symObjAddr: 0x7D18, symBinAddr: 0x1BA1F0, symSize: 0x0 }
+  - { offsetInCU: 0x5A9, offset: 0xB787C, size: 0x8, addend: 0x0, symName: _internalStateForClosed.internalState, symObjAddr: 0x7D18, symBinAddr: 0x1BA1E8, symSize: 0x0 }
+  - { offsetInCU: 0x5BF, offset: 0xB7892, size: 0x8, addend: 0x0, symName: _internalStateForClosed.onceToken, symObjAddr: 0x7D20, symBinAddr: 0x1BA1F0, symSize: 0x0 }
   - { offsetInCU: 0x60C, offset: 0xB78DF, size: 0x8, addend: 0x0, symName: '+[PTDiffusionSessionState Connecting]', symObjAddr: 0x1144, symBinAddr: 0xF7AD0, symSize: 0xB4 }
-  - { offsetInCU: 0x636, offset: 0xB7909, size: 0x8, addend: 0x0, symName: _Connecting.internalState, symObjAddr: 0x7D20, symBinAddr: 0x1BA1F8, symSize: 0x0 }
-  - { offsetInCU: 0x64C, offset: 0xB791F, size: 0x8, addend: 0x0, symName: _Connecting.onceToken, symObjAddr: 0x7D28, symBinAddr: 0x1BA200, symSize: 0x0 }
+  - { offsetInCU: 0x636, offset: 0xB7909, size: 0x8, addend: 0x0, symName: _Connecting.internalState, symObjAddr: 0x7D28, symBinAddr: 0x1BA1F8, symSize: 0x0 }
+  - { offsetInCU: 0x64C, offset: 0xB791F, size: 0x8, addend: 0x0, symName: _Connecting.onceToken, symObjAddr: 0x7D30, symBinAddr: 0x1BA200, symSize: 0x0 }
   - { offsetInCU: 0x699, offset: 0xB796C, size: 0x8, addend: 0x0, symName: '+[PTDiffusionSessionState ConnectedActive]', symObjAddr: 0x1254, symBinAddr: 0xF7BE0, symSize: 0xB4 }
-  - { offsetInCU: 0x6C3, offset: 0xB7996, size: 0x8, addend: 0x0, symName: _ConnectedActive.internalState, symObjAddr: 0x7D30, symBinAddr: 0x1BA208, symSize: 0x0 }
-  - { offsetInCU: 0x6D9, offset: 0xB79AC, size: 0x8, addend: 0x0, symName: _ConnectedActive.onceToken, symObjAddr: 0x7D38, symBinAddr: 0x1BA210, symSize: 0x0 }
+  - { offsetInCU: 0x6C3, offset: 0xB7996, size: 0x8, addend: 0x0, symName: _ConnectedActive.internalState, symObjAddr: 0x7D38, symBinAddr: 0x1BA208, symSize: 0x0 }
+  - { offsetInCU: 0x6D9, offset: 0xB79AC, size: 0x8, addend: 0x0, symName: _ConnectedActive.onceToken, symObjAddr: 0x7D40, symBinAddr: 0x1BA210, symSize: 0x0 }
   - { offsetInCU: 0x726, offset: 0xB79F9, size: 0x8, addend: 0x0, symName: '+[PTDiffusionSessionState RecoveringReconnect]', symObjAddr: 0x1364, symBinAddr: 0xF7CF0, symSize: 0xB4 }
-  - { offsetInCU: 0x750, offset: 0xB7A23, size: 0x8, addend: 0x0, symName: _RecoveringReconnect.internalState, symObjAddr: 0x7D40, symBinAddr: 0x1BA218, symSize: 0x0 }
-  - { offsetInCU: 0x766, offset: 0xB7A39, size: 0x8, addend: 0x0, symName: _RecoveringReconnect.onceToken, symObjAddr: 0x7D48, symBinAddr: 0x1BA220, symSize: 0x0 }
+  - { offsetInCU: 0x750, offset: 0xB7A23, size: 0x8, addend: 0x0, symName: _RecoveringReconnect.internalState, symObjAddr: 0x7D48, symBinAddr: 0x1BA218, symSize: 0x0 }
+  - { offsetInCU: 0x766, offset: 0xB7A39, size: 0x8, addend: 0x0, symName: _RecoveringReconnect.onceToken, symObjAddr: 0x7D50, symBinAddr: 0x1BA220, symSize: 0x0 }
   - { offsetInCU: 0x7B3, offset: 0xB7A86, size: 0x8, addend: 0x0, symName: '+[PTDiffusionSessionState ClosedByClient]', symObjAddr: 0x1474, symBinAddr: 0xF7E00, symSize: 0xB4 }
-  - { offsetInCU: 0x7DD, offset: 0xB7AB0, size: 0x8, addend: 0x0, symName: _ClosedByClient.internalState, symObjAddr: 0x7D50, symBinAddr: 0x1BA228, symSize: 0x0 }
-  - { offsetInCU: 0x7F3, offset: 0xB7AC6, size: 0x8, addend: 0x0, symName: _ClosedByClient.onceToken, symObjAddr: 0x7D58, symBinAddr: 0x1BA230, symSize: 0x0 }
+  - { offsetInCU: 0x7DD, offset: 0xB7AB0, size: 0x8, addend: 0x0, symName: _ClosedByClient.internalState, symObjAddr: 0x7D58, symBinAddr: 0x1BA228, symSize: 0x0 }
+  - { offsetInCU: 0x7F3, offset: 0xB7AC6, size: 0x8, addend: 0x0, symName: _ClosedByClient.onceToken, symObjAddr: 0x7D60, symBinAddr: 0x1BA230, symSize: 0x0 }
   - { offsetInCU: 0x840, offset: 0xB7B13, size: 0x8, addend: 0x0, symName: '+[PTDiffusionSessionState ClosedByServer]', symObjAddr: 0x1584, symBinAddr: 0xF7F10, symSize: 0xB4 }
-  - { offsetInCU: 0x86A, offset: 0xB7B3D, size: 0x8, addend: 0x0, symName: _ClosedByServer.internalState, symObjAddr: 0x7D60, symBinAddr: 0x1BA238, symSize: 0x0 }
-  - { offsetInCU: 0x880, offset: 0xB7B53, size: 0x8, addend: 0x0, symName: _ClosedByServer.onceToken, symObjAddr: 0x7D68, symBinAddr: 0x1BA240, symSize: 0x0 }
+  - { offsetInCU: 0x86A, offset: 0xB7B3D, size: 0x8, addend: 0x0, symName: _ClosedByServer.internalState, symObjAddr: 0x7D68, symBinAddr: 0x1BA238, symSize: 0x0 }
+  - { offsetInCU: 0x880, offset: 0xB7B53, size: 0x8, addend: 0x0, symName: _ClosedByServer.onceToken, symObjAddr: 0x7D70, symBinAddr: 0x1BA240, symSize: 0x0 }
   - { offsetInCU: 0x8CD, offset: 0xB7BA0, size: 0x8, addend: 0x0, symName: '+[PTDiffusionSessionState ClosedFailed]', symObjAddr: 0x1694, symBinAddr: 0xF8020, symSize: 0xB4 }
-  - { offsetInCU: 0x8F7, offset: 0xB7BCA, size: 0x8, addend: 0x0, symName: _ClosedFailed.internalState, symObjAddr: 0x7D70, symBinAddr: 0x1BA248, symSize: 0x0 }
-  - { offsetInCU: 0x90D, offset: 0xB7BE0, size: 0x8, addend: 0x0, symName: _ClosedFailed.onceToken, symObjAddr: 0x7D78, symBinAddr: 0x1BA250, symSize: 0x0 }
+  - { offsetInCU: 0x8F7, offset: 0xB7BCA, size: 0x8, addend: 0x0, symName: _ClosedFailed.internalState, symObjAddr: 0x7D78, symBinAddr: 0x1BA248, symSize: 0x0 }
+  - { offsetInCU: 0x90D, offset: 0xB7BE0, size: 0x8, addend: 0x0, symName: _ClosedFailed.onceToken, symObjAddr: 0x7D80, symBinAddr: 0x1BA250, symSize: 0x0 }
   - { offsetInCU: 0x969, offset: 0xB7C3C, size: 0x8, addend: 0x0, symName: '-[PTDiffusionSessionState initWithInternalState:description:error:]', symObjAddr: 0x0, symBinAddr: 0xF698C, symSize: 0x140 }
   - { offsetInCU: 0x9CF, offset: 0xB7CA2, size: 0x8, addend: 0x0, symName: '-[PTDiffusionSessionState initWithState:description:error:]', symObjAddr: 0x140, symBinAddr: 0xF6ACC, symSize: 0x13C }
   - { offsetInCU: 0xA35, offset: 0xB7D08, size: 0x8, addend: 0x0, symName: '-[PTDiffusionSessionState isConnected]', symObjAddr: 0x27C, symBinAddr: 0xF6C08, symSize: 0xB8 }
@@ -4088,8 +4088,8 @@ relocations:
   - { offsetInCU: 0x1D0, offset: 0xBACF6, size: 0x8, addend: 0x0, symName: '-[PTDiffusionNotifyUnsubscriptionService .cxx_destruct]', symObjAddr: 0x3EC, symBinAddr: 0xFD780, symSize: 0x38 }
   - { offsetInCU: 0x27, offset: 0xBAE2B, size: 0x8, addend: 0x0, symName: '+[PTDiffusionBinaryDataType binaryDataType]', symObjAddr: 0x0, symBinAddr: 0xFD7B8, symSize: 0x80 }
   - { offsetInCU: 0x35, offset: 0xBAE39, size: 0x8, addend: 0x0, symName: '+[PTDiffusionBinaryDataType binaryDataType]', symObjAddr: 0x0, symBinAddr: 0xFD7B8, symSize: 0x80 }
-  - { offsetInCU: 0x5F, offset: 0xBAE63, size: 0x8, addend: 0x0, symName: _binaryDataType.onceToken, symObjAddr: 0x3800, symBinAddr: 0x1BA258, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0xBAE79, size: 0x8, addend: 0x0, symName: _binaryDataType.singleton, symObjAddr: 0x3808, symBinAddr: 0x1BA260, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0xBAE63, size: 0x8, addend: 0x0, symName: _binaryDataType.onceToken, symObjAddr: 0x3808, symBinAddr: 0x1BA258, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0xBAE79, size: 0x8, addend: 0x0, symName: _binaryDataType.singleton, symObjAddr: 0x3810, symBinAddr: 0x1BA260, symSize: 0x0 }
   - { offsetInCU: 0x1FA, offset: 0xBAFFE, size: 0x8, addend: 0x0, symName: '___43+[PTDiffusionBinaryDataType binaryDataType]_block_invoke', symObjAddr: 0x80, symBinAddr: 0xFD838, symSize: 0x4C }
   - { offsetInCU: 0x224, offset: 0xBB028, size: 0x8, addend: 0x0, symName: '-[PTDiffusionBinaryDataType initAsSingleton]', symObjAddr: 0xCC, symBinAddr: 0xFD884, symSize: 0x8C }
   - { offsetInCU: 0x25D, offset: 0xBB061, size: 0x8, addend: 0x0, symName: '-[PTDiffusionBinaryDataType typeName]', symObjAddr: 0x158, symBinAddr: 0xFD910, symSize: 0x1C }
@@ -4143,8 +4143,8 @@ relocations:
   - { offsetInCU: 0x198, offset: 0xBC755, size: 0x8, addend: 0x0, symName: '-[PTDiffusionMessageSender .cxx_destruct]', symObjAddr: 0x218, symBinAddr: 0x1005A4, symSize: 0x2C }
   - { offsetInCU: 0x27, offset: 0xBC7E7, size: 0x8, addend: 0x0, symName: '+[PTDiffusionLogging logging]', symObjAddr: 0x0, symBinAddr: 0x1005D0, symSize: 0x80 }
   - { offsetInCU: 0x35, offset: 0xBC7F5, size: 0x8, addend: 0x0, symName: '+[PTDiffusionLogging logging]', symObjAddr: 0x0, symBinAddr: 0x1005D0, symSize: 0x80 }
-  - { offsetInCU: 0x5F, offset: 0xBC81F, size: 0x8, addend: 0x0, symName: _logging.logging, symObjAddr: 0x3958, symBinAddr: 0x1BA268, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0xBC835, size: 0x8, addend: 0x0, symName: _logging.onceToken, symObjAddr: 0x3960, symBinAddr: 0x1BA270, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0xBC81F, size: 0x8, addend: 0x0, symName: _logging.logging, symObjAddr: 0x3960, symBinAddr: 0x1BA268, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0xBC835, size: 0x8, addend: 0x0, symName: _logging.onceToken, symObjAddr: 0x3968, symBinAddr: 0x1BA270, symSize: 0x0 }
   - { offsetInCU: 0x235, offset: 0xBC9F5, size: 0x8, addend: 0x0, symName: __LogSwitches_Off, symObjAddr: 0xA10, symBinAddr: 0x145D61, symSize: 0x0 }
   - { offsetInCU: 0x29C, offset: 0xBCA5C, size: 0x8, addend: 0x0, symName: __LogSwitches_Error, symObjAddr: 0xA15, symBinAddr: 0x145D66, symSize: 0x0 }
   - { offsetInCU: 0x2B2, offset: 0xBCA72, size: 0x8, addend: 0x0, symName: __LogSwitches_Warn, symObjAddr: 0xA1A, symBinAddr: 0x145D6B, symSize: 0x0 }
@@ -4237,8 +4237,8 @@ relocations:
   - { offsetInCU: 0x4E2, offset: 0xBEEC4, size: 0x8, addend: 0x0, symName: '-[PTDiffusionUpdateStreamId generationId]', symObjAddr: 0x9D0, symBinAddr: 0x103F00, symSize: 0x1C }
   - { offsetInCU: 0x27, offset: 0xBF011, size: 0x8, addend: 0x0, symName: '+[PTDiffusionTimeSeriesRangeQueryParameters defaultRangeQueryParameters]', symObjAddr: 0x0, symBinAddr: 0x103F1C, symSize: 0xB4 }
   - { offsetInCU: 0x35, offset: 0xBF01F, size: 0x8, addend: 0x0, symName: '+[PTDiffusionTimeSeriesRangeQueryParameters defaultRangeQueryParameters]', symObjAddr: 0x0, symBinAddr: 0x103F1C, symSize: 0xB4 }
-  - { offsetInCU: 0x5F, offset: 0xBF049, size: 0x8, addend: 0x0, symName: _defaultRangeQueryParameters.onceToken, symObjAddr: 0x5F28, symBinAddr: 0x1BA278, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0xBF05F, size: 0x8, addend: 0x0, symName: _defaultRangeQueryParameters.parameters, symObjAddr: 0x5F30, symBinAddr: 0x1BA280, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0xBF049, size: 0x8, addend: 0x0, symName: _defaultRangeQueryParameters.onceToken, symObjAddr: 0x5F30, symBinAddr: 0x1BA278, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0xBF05F, size: 0x8, addend: 0x0, symName: _defaultRangeQueryParameters.parameters, symObjAddr: 0x5F38, symBinAddr: 0x1BA280, symSize: 0x0 }
   - { offsetInCU: 0x29F, offset: 0xBF289, size: 0x8, addend: 0x0, symName: '___72+[PTDiffusionTimeSeriesRangeQueryParameters defaultRangeQueryParameters]_block_invoke', symObjAddr: 0xB4, symBinAddr: 0x103FD0, symSize: 0xBC }
   - { offsetInCU: 0x2FD, offset: 0xBF2E7, size: 0x8, addend: 0x0, symName: '-[PTDiffusionTimeSeriesRangeQueryParameters initWithQueryType:viewRange:editRange:limit:]', symObjAddr: 0x170, symBinAddr: 0x10408C, symSize: 0x358 }
   - { offsetInCU: 0x373, offset: 0xBF35D, size: 0x8, addend: 0x0, symName: '-[PTDiffusionTimeSeriesRangeQueryParameters withViewRange:]', symObjAddr: 0x4C8, symBinAddr: 0x1043E4, symSize: 0x88 }
@@ -4366,11 +4366,11 @@ relocations:
   - { offsetInCU: 0x72D, offset: 0xC30BA, size: 0x8, addend: 0x0, symName: '+[PTDiffusionBinary sessionResponseStreamWithDelegate:]', symObjAddr: 0xDA8, symBinAddr: 0x10B38C, symSize: 0x70 }
   - { offsetInCU: 0x27, offset: 0xC3482, size: 0x8, addend: 0x0, symName: '-[PTDiffusionRecordV2 modelWithSchema:error:]', symObjAddr: 0x0, symBinAddr: 0x10B3FC, symSize: 0x15C }
   - { offsetInCU: 0x35, offset: 0xC3490, size: 0x8, addend: 0x0, symName: __DeltaForEmptyNewValue, symObjAddr: 0x1564, symBinAddr: 0x10C860, symSize: 0x78 }
-  - { offsetInCU: 0x5B, offset: 0xC34B6, size: 0x8, addend: 0x0, symName: __DeltaForEmptyNewValue.onceToken, symObjAddr: 0xAF78, symBinAddr: 0x1BA288, symSize: 0x0 }
-  - { offsetInCU: 0x71, offset: 0xC34CC, size: 0x8, addend: 0x0, symName: __DeltaForEmptyNewValue.delta, symObjAddr: 0xAF80, symBinAddr: 0x1BA290, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0xC34B6, size: 0x8, addend: 0x0, symName: __DeltaForEmptyNewValue.onceToken, symObjAddr: 0xAF80, symBinAddr: 0x1BA288, symSize: 0x0 }
+  - { offsetInCU: 0x71, offset: 0xC34CC, size: 0x8, addend: 0x0, symName: __DeltaForEmptyNewValue.delta, symObjAddr: 0xAF88, symBinAddr: 0x1BA290, symSize: 0x0 }
   - { offsetInCU: 0xEB, offset: 0xC3546, size: 0x8, addend: 0x0, symName: __RecordMu, symObjAddr: 0x21AC, symBinAddr: 0x10D4A8, symSize: 0x78 }
-  - { offsetInCU: 0x111, offset: 0xC356C, size: 0x8, addend: 0x0, symName: __RecordMu.onceToken, symObjAddr: 0xAF88, symBinAddr: 0x1BA298, symSize: 0x0 }
-  - { offsetInCU: 0x127, offset: 0xC3582, size: 0x8, addend: 0x0, symName: __RecordMu.data, symObjAddr: 0xAF90, symBinAddr: 0x1BA2A0, symSize: 0x0 }
+  - { offsetInCU: 0x111, offset: 0xC356C, size: 0x8, addend: 0x0, symName: __RecordMu.onceToken, symObjAddr: 0xAF90, symBinAddr: 0x1BA298, symSize: 0x0 }
+  - { offsetInCU: 0x127, offset: 0xC3582, size: 0x8, addend: 0x0, symName: __RecordMu.data, symObjAddr: 0xAF98, symBinAddr: 0x1BA2A0, symSize: 0x0 }
   - { offsetInCU: 0x3D7, offset: 0xC3832, size: 0x8, addend: 0x0, symName: '-[PTDiffusionRecordV2 modelWithSchema:error:]', symObjAddr: 0x0, symBinAddr: 0x10B3FC, symSize: 0x15C }
   - { offsetInCU: 0x43D, offset: 0xC3898, size: 0x8, addend: 0x0, symName: '-[PTDiffusionRecordV2 validatedModelWithSchema:error:]', symObjAddr: 0x15C, symBinAddr: 0x10B558, symSize: 0x160 }
   - { offsetInCU: 0x4A3, offset: 0xC38FE, size: 0x8, addend: 0x0, symName: '-[PTDiffusionRecordV2 recordsWithError:]', symObjAddr: 0x2BC, symBinAddr: 0x10B6B8, symSize: 0x78 }
@@ -4469,11 +4469,11 @@ relocations:
   - { offsetInCU: 0x69F, offset: 0xC70EE, size: 0x8, addend: 0x0, symName: '-[PTDiffusionBinaryDeltaParser .cxx_destruct]', symObjAddr: 0x163C, symBinAddr: 0x114D9C, symSize: 0x54 }
   - { offsetInCU: 0x27, offset: 0xC71C8, size: 0x8, addend: 0x0, symName: '-[PTDiffusionBoolean initWithDiffusionDataInputStream:error:]', symObjAddr: 0x0, symBinAddr: 0x114DF0, symSize: 0x1A0 }
   - { offsetInCU: 0x35, offset: 0xC71D6, size: 0x8, addend: 0x0, symName: '+[PTDiffusionBoolean booleanForFalse]', symObjAddr: 0x2E0, symBinAddr: 0x1150D0, symSize: 0x80 }
-  - { offsetInCU: 0x5F, offset: 0xC7200, size: 0x8, addend: 0x0, symName: _booleanForFalse.boolean, symObjAddr: 0x36B0, symBinAddr: 0x1BA2A8, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0xC7216, size: 0x8, addend: 0x0, symName: _booleanForFalse.onceToken, symObjAddr: 0x36B8, symBinAddr: 0x1BA2B0, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0xC7200, size: 0x8, addend: 0x0, symName: _booleanForFalse.boolean, symObjAddr: 0x36B8, symBinAddr: 0x1BA2A8, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0xC7216, size: 0x8, addend: 0x0, symName: _booleanForFalse.onceToken, symObjAddr: 0x36C0, symBinAddr: 0x1BA2B0, symSize: 0x0 }
   - { offsetInCU: 0x101, offset: 0xC72A2, size: 0x8, addend: 0x0, symName: '+[PTDiffusionBoolean booleanForTrue]', symObjAddr: 0x3B4, symBinAddr: 0x1151A4, symSize: 0x80 }
-  - { offsetInCU: 0x12B, offset: 0xC72CC, size: 0x8, addend: 0x0, symName: _booleanForTrue.boolean, symObjAddr: 0x36C0, symBinAddr: 0x1BA2B8, symSize: 0x0 }
-  - { offsetInCU: 0x141, offset: 0xC72E2, size: 0x8, addend: 0x0, symName: _booleanForTrue.onceToken, symObjAddr: 0x36C8, symBinAddr: 0x1BA2C0, symSize: 0x0 }
+  - { offsetInCU: 0x12B, offset: 0xC72CC, size: 0x8, addend: 0x0, symName: _booleanForTrue.boolean, symObjAddr: 0x36C8, symBinAddr: 0x1BA2B8, symSize: 0x0 }
+  - { offsetInCU: 0x141, offset: 0xC72E2, size: 0x8, addend: 0x0, symName: _booleanForTrue.onceToken, symObjAddr: 0x36D0, symBinAddr: 0x1BA2C0, symSize: 0x0 }
   - { offsetInCU: 0x196, offset: 0xC7337, size: 0x8, addend: 0x0, symName: '-[PTDiffusionBoolean initWithDiffusionDataInputStream:error:]', symObjAddr: 0x0, symBinAddr: 0x114DF0, symSize: 0x1A0 }
   - { offsetInCU: 0x1ED, offset: 0xC738E, size: 0x8, addend: 0x0, symName: '-[PTDiffusionBoolean writeToDiffusionDataOutputStream:]', symObjAddr: 0x1A0, symBinAddr: 0x114F90, symSize: 0x74 }
   - { offsetInCU: 0x231, offset: 0xC73D2, size: 0x8, addend: 0x0, symName: '-[PTDiffusionBoolean initWithBoolean:]', symObjAddr: 0x214, symBinAddr: 0x115004, symSize: 0xCC }
@@ -4661,8 +4661,8 @@ relocations:
   - { offsetInCU: 0x27, offset: 0xCEBD7, size: 0x8, addend: 0x0, symName: '+[PTDiffusionTopicSelectorSet topicSelectorWithComponents:]', symObjAddr: 0x0, symBinAddr: 0x120D10, symSize: 0x70 }
   - { offsetInCU: 0x41, offset: 0xCEBF1, size: 0x8, addend: 0x0, symName: _PTDiffusionTopicSelectorSetDelimiter, symObjAddr: 0x1940, symBinAddr: 0x179618, symSize: 0x0 }
   - { offsetInCU: 0x55, offset: 0xCEC05, size: 0x8, addend: 0x0, symName: __DelimiterSplitRegularExpression, symObjAddr: 0x14E8, symBinAddr: 0x1221F8, symSize: 0x78 }
-  - { offsetInCU: 0x7B, offset: 0xCEC2B, size: 0x8, addend: 0x0, symName: __DelimiterSplitRegularExpression.regularExpression, symObjAddr: 0x52B8, symBinAddr: 0x1BA2C8, symSize: 0x0 }
-  - { offsetInCU: 0x91, offset: 0xCEC41, size: 0x8, addend: 0x0, symName: __DelimiterSplitRegularExpression.onceToken, symObjAddr: 0x52C0, symBinAddr: 0x1BA2D0, symSize: 0x0 }
+  - { offsetInCU: 0x7B, offset: 0xCEC2B, size: 0x8, addend: 0x0, symName: __DelimiterSplitRegularExpression.regularExpression, symObjAddr: 0x52C0, symBinAddr: 0x1BA2C8, symSize: 0x0 }
+  - { offsetInCU: 0x91, offset: 0xCEC41, size: 0x8, addend: 0x0, symName: __DelimiterSplitRegularExpression.onceToken, symObjAddr: 0x52C8, symBinAddr: 0x1BA2D0, symSize: 0x0 }
   - { offsetInCU: 0x212, offset: 0xCEDC2, size: 0x8, addend: 0x0, symName: '+[PTDiffusionTopicSelectorSet topicSelectorWithComponents:]', symObjAddr: 0x0, symBinAddr: 0x120D10, symSize: 0x70 }
   - { offsetInCU: 0x25A, offset: 0xCEE0A, size: 0x8, addend: 0x0, symName: '+[PTDiffusionTopicSelectorSet topicSelectorWithSelectors:]', symObjAddr: 0x70, symBinAddr: 0x120D80, symSize: 0x70 }
   - { offsetInCU: 0x2A2, offset: 0xCEE52, size: 0x8, addend: 0x0, symName: '-[PTDiffusionTopicSelectorSet initWithComponents:]', symObjAddr: 0xE0, symBinAddr: 0x120DF0, symSize: 0x424 }
@@ -4677,8 +4677,8 @@ relocations:
   - { offsetInCU: 0x7A1, offset: 0xCF351, size: 0x8, addend: 0x0, symName: ____DelimiterSplitRegularExpression_block_invoke, symObjAddr: 0x1560, symBinAddr: 0x122270, symSize: 0x198 }
   - { offsetInCU: 0x27, offset: 0xCF51E, size: 0x8, addend: 0x0, symName: '+[PTDiffusionDoubleDataType doubleDataType]', symObjAddr: 0x0, symBinAddr: 0x122408, symSize: 0x80 }
   - { offsetInCU: 0x35, offset: 0xCF52C, size: 0x8, addend: 0x0, symName: '+[PTDiffusionDoubleDataType doubleDataType]', symObjAddr: 0x0, symBinAddr: 0x122408, symSize: 0x80 }
-  - { offsetInCU: 0x5F, offset: 0xCF556, size: 0x8, addend: 0x0, symName: _doubleDataType.onceToken, symObjAddr: 0x39D0, symBinAddr: 0x1BA2D8, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0xCF56C, size: 0x8, addend: 0x0, symName: _doubleDataType.singleton, symObjAddr: 0x39D8, symBinAddr: 0x1BA2E0, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0xCF556, size: 0x8, addend: 0x0, symName: _doubleDataType.onceToken, symObjAddr: 0x39D8, symBinAddr: 0x1BA2D8, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0xCF56C, size: 0x8, addend: 0x0, symName: _doubleDataType.singleton, symObjAddr: 0x39E0, symBinAddr: 0x1BA2E0, symSize: 0x0 }
   - { offsetInCU: 0x204, offset: 0xCF6FB, size: 0x8, addend: 0x0, symName: '___43+[PTDiffusionDoubleDataType doubleDataType]_block_invoke', symObjAddr: 0x80, symBinAddr: 0x122488, symSize: 0x4C }
   - { offsetInCU: 0x22E, offset: 0xCF725, size: 0x8, addend: 0x0, symName: '-[PTDiffusionDoubleDataType initAsSingleton]', symObjAddr: 0xCC, symBinAddr: 0x1224D4, symSize: 0x8C }
   - { offsetInCU: 0x267, offset: 0xCF75E, size: 0x8, addend: 0x0, symName: '-[PTDiffusionDoubleDataType typeName]', symObjAddr: 0x158, symBinAddr: 0x122560, symSize: 0x1C }
@@ -4745,11 +4745,11 @@ relocations:
   - { offsetInCU: 0xEB, offset: 0xD18F5, size: 0x8, addend: 0x0, symName: '-[PTDiffusionString .cxx_destruct]', symObjAddr: 0x270, symBinAddr: 0x125B40, symSize: 0x30 }
   - { offsetInCU: 0x27, offset: 0xD19F6, size: 0x8, addend: 0x0, symName: '+[PTDiffusionHTTPAuthenticationChallengeStatus unauthorized]', symObjAddr: 0x0, symBinAddr: 0x125B70, symSize: 0xB4 }
   - { offsetInCU: 0x35, offset: 0xD1A04, size: 0x8, addend: 0x0, symName: '+[PTDiffusionHTTPAuthenticationChallengeStatus unauthorized]', symObjAddr: 0x0, symBinAddr: 0x125B70, symSize: 0xB4 }
-  - { offsetInCU: 0x5F, offset: 0xD1A2E, size: 0x8, addend: 0x0, symName: _unauthorized.onceToken, symObjAddr: 0x37D8, symBinAddr: 0x1BA2E8, symSize: 0x0 }
-  - { offsetInCU: 0x75, offset: 0xD1A44, size: 0x8, addend: 0x0, symName: _unauthorized.status, symObjAddr: 0x37E0, symBinAddr: 0x1BA2F0, symSize: 0x0 }
+  - { offsetInCU: 0x5F, offset: 0xD1A2E, size: 0x8, addend: 0x0, symName: _unauthorized.onceToken, symObjAddr: 0x37E0, symBinAddr: 0x1BA2E8, symSize: 0x0 }
+  - { offsetInCU: 0x75, offset: 0xD1A44, size: 0x8, addend: 0x0, symName: _unauthorized.status, symObjAddr: 0x37E8, symBinAddr: 0x1BA2F0, symSize: 0x0 }
   - { offsetInCU: 0x113, offset: 0xD1AE2, size: 0x8, addend: 0x0, symName: '+[PTDiffusionHTTPAuthenticationChallengeStatus proxyAuthenticationRequired]', symObjAddr: 0x104, symBinAddr: 0x125C74, symSize: 0xB4 }
-  - { offsetInCU: 0x13D, offset: 0xD1B0C, size: 0x8, addend: 0x0, symName: _proxyAuthenticationRequired.onceToken, symObjAddr: 0x37E8, symBinAddr: 0x1BA2F8, symSize: 0x0 }
-  - { offsetInCU: 0x153, offset: 0xD1B22, size: 0x8, addend: 0x0, symName: _proxyAuthenticationRequired.status, symObjAddr: 0x37F0, symBinAddr: 0x1BA300, symSize: 0x0 }
+  - { offsetInCU: 0x13D, offset: 0xD1B0C, size: 0x8, addend: 0x0, symName: _proxyAuthenticationRequired.onceToken, symObjAddr: 0x37F0, symBinAddr: 0x1BA2F8, symSize: 0x0 }
+  - { offsetInCU: 0x153, offset: 0xD1B22, size: 0x8, addend: 0x0, symName: _proxyAuthenticationRequired.status, symObjAddr: 0x37F8, symBinAddr: 0x1BA300, symSize: 0x0 }
   - { offsetInCU: 0x1EA, offset: 0xD1BB9, size: 0x8, addend: 0x0, symName: '___60+[PTDiffusionHTTPAuthenticationChallengeStatus unauthorized]_block_invoke', symObjAddr: 0xB4, symBinAddr: 0x125C24, symSize: 0x50 }
   - { offsetInCU: 0x22A, offset: 0xD1BF9, size: 0x8, addend: 0x0, symName: '___75+[PTDiffusionHTTPAuthenticationChallengeStatus proxyAuthenticationRequired]_block_invoke', symObjAddr: 0x1B8, symBinAddr: 0x125D28, symSize: 0x50 }
   - { offsetInCU: 0x26A, offset: 0xD1C39, size: 0x8, addend: 0x0, symName: '-[PTDiffusionHTTPAuthenticationChallengeStatus initUnauthorizedWithReasonPhrase:]', symObjAddr: 0x208, symBinAddr: 0x125D78, symSize: 0xF0 }
