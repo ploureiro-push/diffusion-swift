@@ -3071,7 +3071,7 @@ relocations:
   - { offsetInCU: 0x1EC, offset: 0x96C8F, size: 0x8, addend: 0x0, symName: '-[PTDiffusionJSONUpdateStream setValue:completionHandler:error:]', symObjAddr: 0x40, symBinAddr: 0xC06D0, symSize: 0x12E }
   - { offsetInCU: 0x27, offset: 0x96DE4, size: 0x8, addend: 0x0, symName: '-[PTDiffusionVersion initWithMajor:minor:patch:manifest:]', symObjAddr: 0x0, symBinAddr: 0xC0800, symSize: 0x270 }
   - { offsetInCU: 0x41, offset: 0x96DFE, size: 0x8, addend: 0x0, symName: _PTDiffusionVersion_Changelist_internal, symObjAddr: 0x1248, symBinAddr: 0x16D398, symSize: 0x0 }
-  - { offsetInCU: 0x61, offset: 0x96E1E, size: 0x8, addend: 0x0, symName: _PTDiffusionVersion_6_11_2, symObjAddr: 0x1250, symBinAddr: 0x16D3A0, symSize: 0x0 }
+  - { offsetInCU: 0x61, offset: 0x96E1E, size: 0x8, addend: 0x0, symName: _PTDiffusionVersion_6_11_3, symObjAddr: 0x1250, symBinAddr: 0x16D3A0, symSize: 0x0 }
   - { offsetInCU: 0x6B, offset: 0x96E28, size: 0x8, addend: 0x0, symName: '+[PTDiffusionVersion versionOfClientLibrary]', symObjAddr: 0x270, symBinAddr: 0xC0A70, symSize: 0xB0 }
   - { offsetInCU: 0x95, offset: 0x96E52, size: 0x8, addend: 0x0, symName: _versionOfClientLibrary.diffusionVersion, symObjAddr: 0x52D8, symBinAddr: 0x1C3A30, symSize: 0x0 }
   - { offsetInCU: 0xAB, offset: 0x96E68, size: 0x8, addend: 0x0, symName: _versionOfClientLibrary.onceToken, symObjAddr: 0x52E0, symBinAddr: 0x1C3A38, symSize: 0x0 }
