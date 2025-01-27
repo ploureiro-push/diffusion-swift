@@ -1,5 +1,5 @@
 
-<img src="https://docs.pushtechnology.com/docs/6.10.6/manual/html/lib/img/logos/push-new.png" style="width:250px;"/>
+<img src="https://docs.pushtechnology.com/docs/6.10.7/manual/html/lib/img/logos/push-new.png" style="width:250px;"/>
 
 <p/>
 
@@ -20,12 +20,12 @@
 
 # Apple SDK for Diffusion - Swift Package
 
-#### Latest version: 6.10.6
+#### Latest version: 6.10.7
 
 #### Links
 - <a href="https://docs.pushtechnology.com/quickstart">Quick Start Guide</a>
-- <a href="https://docs.pushtechnology.com/docs/6.10.6/manual/html/developerguide/developerguide_overview.html">Developer Guide</a>
-- <a href="https://docs.pushtechnology.com/docs/6.10.6/apple">API Documentation</a>
+- <a href="https://docs.pushtechnology.com/docs/6.10.7/manual/html/developerguide/developerguide_overview.html">Developer Guide</a>
+- <a href="https://docs.pushtechnology.com/docs/6.10.7/apple">API Documentation</a>
 - <a href="https://github.com/pushtechnology/diffusion-examples/tree/6.10/apple">Examples</a>
 
 
@@ -47,7 +47,7 @@ let package = Package(
         .package(
             name: "Diffusion",
             url: "https://github.com/pushtechnology/diffusion-swift",
-            .exact("6.10.6")
+            .exact("6.10.7")
         ),
     ],
     //...
