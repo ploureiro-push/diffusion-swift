@@ -60,6 +60,8 @@ extern NSString *const PTDiffusionMessagingFeatureErrorDomain __deprecated_msg("
 
 
 /**
+ @ingroup PublicAPI_Messaging
+ 
  @brief This feature provides a client session with request-response messaging
  capabilities that can be used to implement application services.
 
@@ -160,7 +162,7 @@ extern NSString *const PTDiffusionMessagingFeatureErrorDomain __deprecated_msg("
 
  For more detail,
  see: @ref md_messaging "Messaging with the Apple client library".
- 
+
  @see PTDiffusionSession
 
  @since 5.6
@@ -169,13 +171,13 @@ extern NSString *const PTDiffusionMessagingFeatureErrorDomain __deprecated_msg("
 
 /**
  Assign the request stream to handle requests sent to the given path.
- 
+
  @param stream The request stream which should be mapped to receive requests
  sent to the given path.
- 
+
  @param path The path for which received requests should be dispatched to the
  given request stream.
- 
+
  @return The previously set request stream for the given path, or `nil` if this
  is a fresh dispatch mapping.
 

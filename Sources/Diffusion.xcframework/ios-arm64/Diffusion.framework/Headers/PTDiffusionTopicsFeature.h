@@ -1,6 +1,6 @@
 //  Diffusion Client Library for iOS, tvOS and OS X / macOS
 //
-//  Copyright (c) 2015 - 2024 DiffusionData Ltd., All Rights Reserved.
+//  Copyright (c) 2015 - 2025 DiffusionData Ltd., All Rights Reserved.
 //
 //  Use is subject to licence terms.
 //
@@ -22,8 +22,9 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /**
- @brief The Topics feature provides a client session with the capability to receive streamed
- topic updates and/or fetch the state of topics.
+ @ingroup PublicAPI_Topics
+
+ @brief Subscription to topics and fetching topic data.
 
  This feature allows a client session to subscribe to topics to receive
  streamed topic updates, fetch the state of topics and/or update topics with
@@ -37,7 +38,7 @@ NS_ASSUME_NONNULL_BEGIN
     <li>By extending the topic views feature, manage topic views.
  </ul>
 
- ###Subscription and unsubscription
+ ### Subscription and unsubscription
 
  A session can issue requests to subscribe to topics at any time, even if the
  topics do not exist at the server. Each subscription request provides a
@@ -73,7 +74,7 @@ NS_ASSUME_NONNULL_BEGIN
  those for which the session has `PTDiffusionPathPermission#readTopic`
  permission.
 
- ###Subscription streams
+ ### Subscription streams
 
  A session can listen to subscription events and updates for a selection of
  topics by adding one or more streams. A stream is registered using a topic
@@ -106,7 +107,7 @@ NS_ASSUME_NONNULL_BEGIN
  callback when unregistered and a `PTDiffusionStreamDelegate#diffusionStream:didFailWithError:`
  callback if the session is closed.
 
- ###Value streams
+ ### Value streams
 
  A `PTDiffusionValueStream` receives values for matching topics as and
  when updates are received from the server. Delta updates received from the
@@ -202,7 +203,8 @@ NS_ASSUME_NONNULL_BEGIN
     </tr>
  </table>
 
- ###Fetch
+
+ ### Fetch
 
  A session can issue a request to fetch details of a topic or topics (subject
  to authorization) at any time. The topics required are specified using a
@@ -217,7 +219,7 @@ NS_ASSUME_NONNULL_BEGIN
  to the server using the `PTDiffusionFetchRequest#fetchWithTopicSelectorExpression:completionHandler:]`
  method on the request. This will return the results via a `completionHandler`.
 
- ###Access control
+ ### Access control
 
  A session must have `PTDiffusionPathPermission.selectTopic`
  permission for the path prefix of the topic selector used to
@@ -227,7 +229,7 @@ NS_ASSUME_NONNULL_BEGIN
 
  No access control restrictions are applied to unsubscription.
 
- ###Accessing the feature
+ ### Accessing the feature
 
  This feature can be obtained from a `PTDiffusionSession` as follows:
 

@@ -1,6 +1,6 @@
 //  Diffusion Client Library for iOS, tvOS and OS X / macOS
 //
-//  Copyright (c) 2015 - 2023 DiffusionData Ltd., All Rights Reserved.
+//  Copyright (c) 2015 - 2025 DiffusionData Ltd., All Rights Reserved.
 //
 //  Use is subject to licence terms.
 //
@@ -39,7 +39,10 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /**
- @brief A client session to a server or cluster of servers.
+
+ @ingroup PublicAPI_Session
+
+ @brief A client session to a server (or cluster of servers).
 
  The @ref md_quick_start "Quick Start" guide provides basic instructions on how
  to connect to a Diffusion server.
@@ -70,7 +73,7 @@ NS_ASSUME_NONNULL_BEGIN
      <li>#topicViews
  </ul>
 
- ###Session lifecycle
+ ### Session lifecycle
 
  Each session is managed by a server. The server assigns the session a
  unique identity, and manages the session's topic subscriptions,

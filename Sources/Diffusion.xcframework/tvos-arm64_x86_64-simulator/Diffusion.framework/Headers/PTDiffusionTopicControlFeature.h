@@ -38,6 +38,8 @@ NS_ASSUME_NONNULL_BEGIN
 extern NSString *const PTDiffusionTopicControlFeatureErrorDomain __deprecated_msg("Use PTDiffusion instead");
 
 /**
+ @ingroup PublicAPI_TopicControl
+
  @brief The Topic Control feature provides a client session with the ability to
  manage topics.
 
