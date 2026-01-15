@@ -20,6 +20,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /**
+ @ingroup PublicAPI_Security
+
  @brief This feature provides a client session with the ability to change its
  associated principal as well as to query permissions assigned to it.
 
@@ -27,14 +29,14 @@ NS_ASSUME_NONNULL_BEGIN
  `security` property.
 
  @see PTDiffusionSession
- 
+
  @since 5.6
  */
 @interface PTDiffusionSecurityFeature : PTDiffusionFeature
 
 /**
  Change the security principal associated with the current session.
- 
+
  If authentication fails, the current principal will remain valid.
 
  @param principal The new principal name.
@@ -48,7 +50,7 @@ NS_ASSUME_NONNULL_BEGIN
 
  @exception NSInvalidArgumentException Raised if the completionHandler argument
  is `nil`.
- 
+
  @since 5.6
  */
 -(void)changePrincipal:(nullable NSString *)principal

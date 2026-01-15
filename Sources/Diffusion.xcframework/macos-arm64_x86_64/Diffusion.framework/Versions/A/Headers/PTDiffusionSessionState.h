@@ -15,6 +15,8 @@
 NS_ASSUME_NONNULL_BEGIN
 
 /**
+ @ingroup PublicAPI_Session
+
  @brief Session state represents the condition a session has in respect
  of connectivity to a Diffusion server.
 

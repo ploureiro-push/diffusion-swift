@@ -26,6 +26,9 @@ NS_ASSUME_NONNULL_BEGIN
 
 
 /**
+
+ @ingroup PublicAPI_Session
+
  @brief A session configuration defines behavior and policies to use when connecting to Diffusion.
 
  @see PTDiffusionSession

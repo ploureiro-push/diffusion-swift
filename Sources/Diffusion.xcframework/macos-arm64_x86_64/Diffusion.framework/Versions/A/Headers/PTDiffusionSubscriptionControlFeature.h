@@ -49,6 +49,8 @@ NS_ASSUME_NONNULL_BEGIN
 extern NSString *const PTDiffusionSubscriptionControlFeatureErrorDomain __deprecated_msg("Use PTDiffusion instead.");
 
 /**
+ @ingroup PublicAPI_SubscriptionControl
+
  @brief The Subscription Control feature allows a client session to subscribe
  or unsubscribe other sessions to topics.
 

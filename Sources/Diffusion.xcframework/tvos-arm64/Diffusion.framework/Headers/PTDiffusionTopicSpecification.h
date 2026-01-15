@@ -1,6 +1,6 @@
 //  Diffusion Client Library for iOS, tvOS and OS X / macOS
 //
-//  Copyright (c) 2016 - 2023 DiffusionData Ltd., All Rights Reserved.
+//  Copyright (c) 2016 - 2025 DiffusionData Ltd., All Rights Reserved.
 //
 //  Use is subject to licence terms.
 //
@@ -32,7 +32,7 @@ NS_ASSUME_NONNULL_BEGIN
  different properties can be derived from a default instance using the
  `[PTdiffusionTopicSpecification initWithType:properties:]` builder method.
 
- ###Topic Properties
+ ### Topic Properties
 
  Depending on the topic type, some properties must be included in the
  specification when creating a topic and some properties have no effect. The
